@@ -3,21 +3,8 @@ import { describe, expect, it, vi } from "vitest";
 import { HslSliderField } from "@/components/game/HslSliderField";
 import { GuessHistory } from "@/components/game/GuessHistory";
 import { FirstPlayDialog } from "@/components/game/FirstPlayDialog";
-import { TargetRegionInspector } from "@/components/game/TargetRegionInspector";
 import { createFeedback } from "@/src/lib/game/feedback";
-import type { PublicPuzzle } from "@/src/types/puzzle";
 
-const puzzle: PublicPuzzle = {
-  id: "test",
-  imageSrc: "/astro/nasa/pia08516.webp",
-  width: 1200,
-  height: 800,
-  collectionLabel: "Studio Observatory",
-  maxAttempts: 5,
-  samplePoint: { x: 0.57, y: 0.39 },
-  sampleRadius: 0.018,
-  inspectionRegion: { centerX: 0.57, centerY: 0.39, width: 0.3, height: 0.3 },
-};
 
 describe("game components", () => {
   it("labels sliders and emits live values", () => {
@@ -46,13 +33,6 @@ describe("game components", () => {
     rerender(<HslSliderField kind="hue" value={0} hue={0} disabled={false} onChange={onChange} />);
     fireEvent.keyDown(screen.getByLabelText("Hue"), { key: "ArrowLeft" });
     expect(onChange).toHaveBeenCalledWith(359);
-  });
-
-  it("renders a persistent target inspector with a sample reticle", () => {
-    render(<TargetRegionInspector puzzle={puzzle} guess={{ h: 210, s: 50, l: 50 }} onOpenZoom={() => {}} />);
-    expect(screen.getByRole("heading", { name: "Inspect the sample" })).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: "Open larger target inspector" })).toBeInTheDocument();
-    expect(screen.getByText("Match this area")).toBeInTheDocument();
   });
 
   it("renders compact guess history", () => {

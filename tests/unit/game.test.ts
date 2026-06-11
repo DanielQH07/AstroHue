@@ -21,9 +21,9 @@ describe("game logic", () => {
   });
 
   it("honors exact tolerance boundaries", () => {
-    const feedback = createFeedback({ h: 4, s: 44, l: 56 }, { h: 358, s: 50, l: 50 });
+    const feedback = createFeedback({ h: 0, s: 48, l: 52 }, { h: 358, s: 50, l: 50 });
     expect(isWinningFeedback(feedback)).toBe(true);
-    expect(isWinningFeedback(createFeedback({ h: 5, s: 43, l: 57 }, { h: 358, s: 50, l: 50 }))).toBe(false);
+    expect(isWinningFeedback(createFeedback({ h: 1, s: 47, l: 53 }, { h: 358, s: 50, l: 50 }))).toBe(false);
   });
 
   it("creates concise feedback symbols at hue boundaries", () => {

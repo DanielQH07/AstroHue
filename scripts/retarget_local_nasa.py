@@ -76,7 +76,33 @@ def inspection_region(x: float, y: float, width: int, height: int) -> dict[str, 
     }
 
 
-def retarget(image: Image.Image) -> dict[str, Any]:
+def create_mask(image: Image.Image, target_hue: float, target_lightness: float, target_saturation: float) -> Image.Image:
+    work = image.convert("RGBA")
+    pixels = work.load()
+    mask = Image.new("RGBA", image.size, (255, 255, 255, 0))
+    mask_pixels = mask.load()
+
+    for y in range(work.height):
+        for x in range(work.width):
+            pixel = pixels[x, y]
+            if not valid(pixel[:3]):
+                continue
+            h, l, s = hls(pixel[:3])
+            
+            h_dist = hue_gap(h, target_hue)
+            l_dist = abs(l - target_lightness)
+            s_dist = abs(s - target_saturation)
+            
+            if h_dist < 0.08 and l_dist < 0.18 and s_dist < 0.25:
+                dist = (h_dist / 0.08) ** 2 + (l_dist / 0.18) ** 2 + (s_dist / 0.25) ** 2
+                if dist <= 1.0:
+                    alpha = int(255 * (1.0 - dist))
+                    mask_pixels[x, y] = (255, 255, 255, alpha)
+                    
+    return mask
+
+
+def retarget(image: Image.Image, filename: str) -> dict[str, Any]:
     work = image.convert("RGB")
     work.thumbnail((340, 340), Image.Resampling.LANCZOS)
     pixels = work.load()
@@ -145,12 +171,20 @@ def retarget(image: Image.Image) -> dict[str, Any]:
     hue, lightness, saturation = hls(rgb)
     source_x = x / work.width
     source_y = y / work.height
+    
+    mask = create_mask(work, hue, lightness, saturation)
+    mask_dir = ROOT / "public" / "astro" / "masks"
+    mask_dir.mkdir(parents=True, exist_ok=True)
+    mask_path = mask_dir / filename
+    mask.save(mask_path, "WEBP", quality=85)
+    
     return {
         "target": {"h": round(hue * 359), "s": round(saturation * 100), "l": round(lightness * 100)},
         "targetHex": f"#{rgb[0]:02X}{rgb[1]:02X}{rgb[2]:02X}",
         "targetPoint": {"x": rounded(source_x), "y": rounded(source_y)},
         "samplePoint": {"x": rounded(source_x), "y": rounded(source_y)},
         "sampleRadius": 0.026,
+        "maskSrc": f"/astro/masks/{filename}",
         "inspectionRegion": inspection_region(source_x, source_y, image.width, image.height),
     }
 
@@ -166,7 +200,7 @@ def main() -> int:
             continue
         image = Image.open(path)
         try:
-            target = retarget(image)
+            target = retarget(image, filename)
         except ValueError as error:
             print(f"Skipped nasa-{filename.removesuffix('.webp')}: {error}")
             continue

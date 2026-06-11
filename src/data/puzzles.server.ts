@@ -22,6 +22,7 @@ export function toPublicPuzzle(puzzle: AstroPuzzle): PublicPuzzle {
     height: puzzle.height,
     collectionLabel: puzzle.nasaId ? "Cosmic Archive" : "Studio Observatory",
     maxAttempts: 5,
+    maskSrc: puzzle.maskSrc,
     ...publicTargetGeometry(puzzle),
   };
 }

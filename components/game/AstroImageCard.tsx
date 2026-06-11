@@ -6,25 +6,20 @@ import type { CSSProperties } from "react";
 import { useEffect, useRef, useState } from "react";
 import type { RevealData } from "@/src/types/game";
 import type { HslColor, PublicPuzzle } from "@/src/types/puzzle";
-import { RESTORATION_PATCH_FRAC, restorationBrightness } from "@/src/lib/game/targetGeometry";
+import { restorationBrightness } from "@/src/lib/game/targetGeometry";
 
 type Props = {
   puzzle: PublicPuzzle;
   guess: HslColor;
   reveal?: RevealData;
-  onInspect: () => void;
   onZoom: () => void;
 };
 
-export function AstroImageCard({ puzzle, guess, reveal, onInspect, onZoom }: Props) {
+export function AstroImageCard({ puzzle, guess, reveal, onZoom }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [bounds, setBounds] = useState({ width: 0, height: 0, left: 0, top: 0 });
   const [failed, setFailed] = useState(false);
 
-  const minDim = Math.min(bounds.width, bounds.height);
-  const patchSize = minDim * RESTORATION_PATCH_FRAC;
-  const cx = bounds.left + bounds.width * puzzle.samplePoint.x;
-  const cy = bounds.top + bounds.height * puzzle.samplePoint.y;
   const brightness = restorationBrightness(guess.l);
 
   useEffect(() => {
@@ -72,26 +67,37 @@ export function AstroImageCard({ puzzle, guess, reveal, onInspect, onZoom }: Pro
             onError={() => setFailed(true)}
           />
         )}
-        {!failed && patchSize > 0 && !reveal ? (
+        {!failed && bounds.width > 0 && !reveal ? (
           <>
             <div
-              className="restoration-ring"
-              style={{ left: cx, top: cy, width: patchSize + 16, height: patchSize + 16 }}
-              aria-hidden="true"
-            />
-            <button
-              className="restoration-patch restoration-effect"
+              className="restoration-overlay"
               style={{
-                left: cx,
-                top: cy,
-                width: patchSize,
-                height: patchSize,
+                position: "absolute",
+                left: bounds.left,
+                top: bounds.top,
+                width: bounds.width,
+                height: bounds.height,
                 "--guess-color": `hsl(${guess.h} ${guess.s}% ${guess.l}%)`,
-                "--brightness": brightness,
+                WebkitMaskImage: puzzle.maskSrc ? `url(${puzzle.maskSrc})` : "none",
+                maskImage: puzzle.maskSrc ? `url(${puzzle.maskSrc})` : "none",
+                WebkitMaskSize: "100% 100%",
+                maskSize: "100% 100%",
+                pointerEvents: "none",
               } as CSSProperties}
-              onClick={onInspect}
-              aria-label="Desaturated region — click to inspect closer"
-            />
+              aria-hidden="true"
+            >
+              <img
+                src={puzzle.imageSrc}
+                className="restoration-base"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  filter: `grayscale(1) brightness(${brightness}) contrast(1.05)`,
+                }}
+                alt=""
+              />
+              <i className="restoration-tint" aria-hidden="true" />
+            </div>
           </>
         ) : null}
         {reveal ? (

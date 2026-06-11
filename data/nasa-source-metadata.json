@@ -11,7 +11,7 @@
     ],
     "originalAssetUrl": "http://images-assets.nasa.gov/image/PIA10388/PIA10388~orig.jpg",
     "nasaRecordUrl": "https://images.nasa.gov/details/PIA10388",
-    "downloadTimestamp": "2026-06-10T12:14:07.685149+00:00",
+    "downloadTimestamp": "2026-06-11T06:09:47.315873+00:00",
     "originalDimensions": [
       1669,
       1669
@@ -42,7 +42,7 @@
     ],
     "originalAssetUrl": "http://images-assets.nasa.gov/image/PIA08516/PIA08516~orig.jpg",
     "nasaRecordUrl": "https://images.nasa.gov/details/PIA08516",
-    "downloadTimestamp": "2026-06-10T12:14:14.480749+00:00",
+    "downloadTimestamp": "2026-06-11T06:09:51.699854+00:00",
     "originalDimensions": [
       1778,
       1778
@@ -74,7 +74,7 @@
     ],
     "originalAssetUrl": "http://images-assets.nasa.gov/image/0200145/0200145~orig.jpg",
     "nasaRecordUrl": "https://images.nasa.gov/details/0200145",
-    "downloadTimestamp": "2026-06-10T12:14:17.056894+00:00",
+    "downloadTimestamp": "2026-06-11T06:09:56.108690+00:00",
     "originalDimensions": [
       3000,
       2975
@@ -102,7 +102,7 @@
     ],
     "originalAssetUrl": "http://images-assets.nasa.gov/image/PIA10389/PIA10389~orig.jpg",
     "nasaRecordUrl": "https://images.nasa.gov/details/PIA10389",
-    "downloadTimestamp": "2026-06-10T12:14:35.589308+00:00",
+    "downloadTimestamp": "2026-06-11T06:10:14.763746+00:00",
     "originalDimensions": [
       1660,
       1660
@@ -134,7 +134,7 @@
     ],
     "originalAssetUrl": "http://images-assets.nasa.gov/image/PIA23123/PIA23123~orig.jpg",
     "nasaRecordUrl": "https://images.nasa.gov/details/PIA23123",
-    "downloadTimestamp": "2026-06-10T12:14:45.480945+00:00",
+    "downloadTimestamp": "2026-06-11T06:10:22.870456+00:00",
     "originalDimensions": [
       1600,
       900
@@ -151,32 +151,6 @@
     ],
     "rightsReviewStatus": "pending",
     "rightsReviewNotes": "Annotated observational composite with ESA and named contributors; verify reuse terms before approval."
-  },
-  {
-    "nasaId": "iss025e011750",
-    "originalTitle": "Night views of the Earth taken by the Expedition 25 crew",
-    "description": "ISS025-E-011750 (4 Nov. 2010)  --- From 220 miles above Earth, one of the Expedition 25 crew members aboard the International Space Station aimed a camera  through a Cupola window and recorded this night time image of the Mediterranean Riviera and a panorama along the coastline from Valencia, Spain to Livorno, Italy and many points in between including parts of Andorra and Monaco.  Islands in the Mediterranean that can easily be delineated in the Nov. 4 picture are the Balearic Islands, as well as Corsica and Sardinia.",
-    "photographer": "",
-    "center": "JSC",
-    "dateCreated": "2010-11-04T00:00:00Z",
-    "keywords": [],
-    "originalAssetUrl": "http://images-assets.nasa.gov/image/iss025e011750/iss025e011750~orig.jpg",
-    "nasaRecordUrl": "https://images.nasa.gov/details/iss025e011750",
-    "downloadTimestamp": "2026-06-10T12:15:01.450010+00:00",
-    "originalDimensions": [
-      4256,
-      2913
-    ],
-    "finalDimensions": [
-      2400,
-      1643
-    ],
-    "originalSha256": "cc348a1ea5c9b9ceec23d163d64af719545b69bcfa27733be3b753dec040f382",
-    "finalSha256": "8a90e2fb1c231827f8ff31fc67761bf254c7b8b469ac38c804b0bacc83a006d6",
-    "credit": "JSC",
-    "potentialThirdPartyIndicators": [],
-    "rightsReviewStatus": "approved",
-    "rightsReviewNotes": "Crew Earth-at-night observation; NASA Image Library record credits JSC."
   },
   {
     "nasaId": "GSFC_20171208_Archive_e001677",
@@ -196,7 +170,7 @@
     ],
     "originalAssetUrl": "http://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001677/GSFC_20171208_Archive_e001677~orig.jpg",
     "nasaRecordUrl": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001677",
-    "downloadTimestamp": "2026-06-10T12:15:04.391300+00:00",
+    "downloadTimestamp": "2026-06-11T06:10:40.003786+00:00",
     "originalDimensions": [
       2500,
       2500
@@ -227,7 +201,7 @@
     ],
     "originalAssetUrl": "http://images-assets.nasa.gov/image/PIA13021/PIA13021~orig.jpg",
     "nasaRecordUrl": "https://images.nasa.gov/details/PIA13021",
-    "downloadTimestamp": "2026-06-10T12:15:08.515030+00:00",
+    "downloadTimestamp": "2026-06-11T06:10:46.247005+00:00",
     "originalDimensions": [
       1963,
       1963
@@ -244,91 +218,6 @@
     "rightsReviewNotes": "Observational galaxy image; preserve NASA/JPL-Caltech/UCLA credit."
   },
   {
-    "nasaId": "iss052e004998",
-    "originalTitle": "Earth observation taken by the Expedition 52 crew",
-    "description": "iss052e004998 (June 19, 2017) --- The aurora and the starry night are pictured above Earth’s atmosphere in this photograph taken from the space station’s cupola June 19, 2017.",
-    "photographer": "Jack Fischer",
-    "center": "JSC",
-    "dateCreated": "2017-06-19T00:00:00Z",
-    "keywords": [],
-    "originalAssetUrl": "http://images-assets.nasa.gov/image/iss052e004998/iss052e004998~orig.jpg",
-    "nasaRecordUrl": "https://images.nasa.gov/details/iss052e004998",
-    "downloadTimestamp": "2026-06-10T12:15:14.306641+00:00",
-    "originalDimensions": [
-      4928,
-      3280
-    ],
-    "finalDimensions": [
-      2400,
-      1597
-    ],
-    "originalSha256": "5947fb2a681ea4f24565134dc970bd4f6995fbf356d5eb297e2b6de1d49aadca",
-    "finalSha256": "c102c9d34bfda2e15c355ea409e7639c454802c29c830bc8960eb39df4495b1f",
-    "credit": "Jack Fischer",
-    "potentialThirdPartyIndicators": [],
-    "rightsReviewStatus": "approved",
-    "rightsReviewNotes": "Earth observation from orbit; preserve the named contributor credit."
-  },
-  {
-    "nasaId": "PIA13335",
-    "originalTitle": "Ancient Galaxy Cluster Still Producing Stars",
-    "description": "Astronomers have found that stars are forming more rapidly in the center of a distant galaxy cluster than at its edges, which is completely reversed from galaxy clusters seen in the local universe.",
-    "photographer": "NASA/JPL-Caltech/Texas A&M",
-    "center": "JPL",
-    "dateCreated": "2010-08-18T17:00:47Z",
-    "keywords": [
-      "Spitzer Space Telescope"
-    ],
-    "originalAssetUrl": "http://images-assets.nasa.gov/image/PIA13335/PIA13335~orig.jpg",
-    "nasaRecordUrl": "https://images.nasa.gov/details/PIA13335",
-    "downloadTimestamp": "2026-06-10T12:15:17.762200+00:00",
-    "originalDimensions": [
-      2000,
-      2000
-    ],
-    "finalDimensions": [
-      2000,
-      2000
-    ],
-    "originalSha256": "ad8ea94ca7943bea38df316bac79dd286aa27c019eebc12b86f250a249747640",
-    "finalSha256": "4d496a3287987134b08bcd25af3644d99b0d754559ee7cf69110569eb7d7d440",
-    "credit": "NASA/JPL-Caltech/Texas A&M",
-    "potentialThirdPartyIndicators": [],
-    "rightsReviewStatus": "pending",
-    "rightsReviewNotes": "Observational image with Texas A&M contribution; verify the complete credit and reuse terms."
-  },
-  {
-    "nasaId": "PIA13762",
-    "originalTitle": "Eight Looks at the Jupiter Impact",
-    "description": "Eight Looks at the Jupiter Impact",
-    "photographer": "NASA/JPL-Caltech/IRTF/STScI/ESO/Gemini Observatory/AURA/A. Wesley",
-    "center": "JPL",
-    "dateCreated": "2011-01-26T19:00:02Z",
-    "keywords": [
-      "Jupiter",
-      "Infrared Telescope Facility"
-    ],
-    "originalAssetUrl": "http://images-assets.nasa.gov/image/PIA13762/PIA13762~orig.jpg",
-    "nasaRecordUrl": "https://images.nasa.gov/details/PIA13762",
-    "downloadTimestamp": "2026-06-10T12:15:21.970708+00:00",
-    "originalDimensions": [
-      1202,
-      1200
-    ],
-    "finalDimensions": [
-      1202,
-      1200
-    ],
-    "originalSha256": "9ee65aaec5c6fb6b027b587d89ca850191d9ea1e5b5e31f0f0f4ec601ffd1825",
-    "finalSha256": "69265d5ff370a5e15511cd4de3af51322e7addf08bfe01edbd8ba6b69d479bed",
-    "credit": "NASA/JPL-Caltech/IRTF/STScI/ESO/Gemini Observatory/AURA/A. Wesley",
-    "potentialThirdPartyIndicators": [
-      "stsci"
-    ],
-    "rightsReviewStatus": "rejected",
-    "rightsReviewNotes": "Labeled multi-panel comparison is unsuitable for the color-search experience."
-  },
-  {
     "nasaId": "PIA01527",
     "originalTitle": "Jupiter Violent Storms",
     "description": "Jupiter Violent Storms",
@@ -341,7 +230,7 @@
     ],
     "originalAssetUrl": "http://images-assets.nasa.gov/image/PIA01527/PIA01527~orig.jpg",
     "nasaRecordUrl": "https://images.nasa.gov/details/PIA01527",
-    "downloadTimestamp": "2026-06-10T12:15:24.112485+00:00",
+    "downloadTimestamp": "2026-06-11T06:11:00.463018+00:00",
     "originalDimensions": [
       1362,
       1228
@@ -373,7 +262,7 @@
     ],
     "originalAssetUrl": "http://images-assets.nasa.gov/image/ctb1cgpsvla/ctb1cgpsvla~orig.jpg",
     "nasaRecordUrl": "https://images.nasa.gov/details/ctb1cgpsvla",
-    "downloadTimestamp": "2026-06-10T12:15:28.953575+00:00",
+    "downloadTimestamp": "2026-06-11T06:11:05.869248+00:00",
     "originalDimensions": [
       8404,
       8297
@@ -406,7 +295,7 @@
     ],
     "originalAssetUrl": "http://images-assets.nasa.gov/image/sts062-58-025/sts062-58-025~orig.jpg",
     "nasaRecordUrl": "https://images.nasa.gov/details/sts062-58-025",
-    "downloadTimestamp": "2026-06-10T12:15:31.636426+00:00",
+    "downloadTimestamp": "2026-06-11T06:11:09.554420+00:00",
     "originalDimensions": [
       4332,
       2857
@@ -421,70 +310,6 @@
     "potentialThirdPartyIndicators": [],
     "rightsReviewStatus": "approved",
     "rightsReviewNotes": "Aurora observation from orbit; NASA Image Library record credits JSC."
-  },
-  {
-    "nasaId": "GSFC_20171208_Archive_e002107",
-    "originalTitle": "Aurora Composite Image",
-    "description": "This composite image presents the three most visible elements of space weather: a storm from the Sun, aurora as seen from space, and aurora as seen from the Earth.  The solar storm is a corona mass ejection (CME) composite from EIT 304Å superimposed on a LASCO C2 image, both from SOHO.  The middle image from Polar’s VIS imager shows charged particles as they spread down across the U.S. during a large solar storm event on July 14, 2000. Lastly, Jan Curtis took this image of an aurora display in Alaska, the visible evidence of space weather that we see here on Earth.  Credit: NASA/GSFC/SOHO/ESA  To learn more go to the SOHO website:  <a href=\"http://sohowww.nascom.nasa.gov/home.html\" rel=\"nofollow\">sohowww.nascom.nasa.gov/home.html</a>  To learn more about NASA's Sun Earth Day go here:  <a href=\"http://sunearthday.nasa.gov/2010/index.php\" rel=\"nofollow\">sunearthday.nasa.gov/2010/index.php</a>",
-    "photographer": "",
-    "center": "GSFC",
-    "dateCreated": "2017-12-08T00:00:00Z",
-    "keywords": [
-      "Aurora Composite Image",
-      "sun",
-      "nasa",
-      "springequinox",
-      "sunearthday",
-      "nasasunearthday"
-    ],
-    "originalAssetUrl": "http://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002107/GSFC_20171208_Archive_e002107~orig.jpg",
-    "nasaRecordUrl": "https://images.nasa.gov/details/GSFC_20171208_Archive_e002107",
-    "downloadTimestamp": "2026-06-10T12:15:41.548929+00:00",
-    "originalDimensions": [
-      2400,
-      1550
-    ],
-    "finalDimensions": [
-      2400,
-      1550
-    ],
-    "originalSha256": "ff8893b1865cc5d0e9809019eda074a11ba688c9c5d79705c9e27be178270244",
-    "finalSha256": "a26dc4ce7923928e134d3305678034362a0b6504503dff49332d6b1be646dab5",
-    "credit": "GSFC",
-    "potentialThirdPartyIndicators": [
-      "esa"
-    ],
-    "rightsReviewStatus": "rejected",
-    "rightsReviewNotes": "Explanatory multi-image graphic is unsuitable for the observational-image pool."
-  },
-  {
-    "nasaId": "PIA01481",
-    "originalTitle": "Jupiter System Montage",
-    "description": "Jupiter System Montage",
-    "photographer": "NASA/JPL",
-    "center": "JPL",
-    "dateCreated": "1998-10-30T14:52:39Z",
-    "keywords": [
-      "Jupiter",
-      "Voyager"
-    ],
-    "originalAssetUrl": "http://images-assets.nasa.gov/image/PIA01481/PIA01481~orig.jpg",
-    "nasaRecordUrl": "https://images.nasa.gov/details/PIA01481",
-    "downloadTimestamp": "2026-06-10T12:15:45.992758+00:00",
-    "originalDimensions": [
-      2081,
-      1654
-    ],
-    "finalDimensions": [
-      2081,
-      1654
-    ],
-    "originalSha256": "6b81d32ef3898fb66bf0bc0269a59e416d8f576222f993a836fe085903353be4",
-    "finalSha256": "6728fc141d2afdf65bedb16eeaf6008a4decc576151d27d3458d3cb9951edc65",
-    "credit": "NASA/JPL",
-    "potentialThirdPartyIndicators": [],
-    "rightsReviewStatus": "rejected",
-    "rightsReviewNotes": "Illustrative planetary composition is unsuitable for the observational-image pool."
   },
   {
     "nasaId": "as11-40-5866",
@@ -504,7 +329,7 @@
     ],
     "originalAssetUrl": "http://images-assets.nasa.gov/image/as11-40-5866/as11-40-5866~orig.jpg",
     "nasaRecordUrl": "https://images.nasa.gov/details/as11-40-5866",
-    "downloadTimestamp": "2026-06-10T12:15:57.782718+00:00",
+    "downloadTimestamp": "2026-06-11T06:11:28.848134+00:00",
     "originalDimensions": [
       3892,
       3892
@@ -532,7 +357,7 @@
     ],
     "originalAssetUrl": "http://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000034/GSFC_20171208_Archive_e000034~orig.jpg",
     "nasaRecordUrl": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000034",
-    "downloadTimestamp": "2026-06-10T12:16:01.866983+00:00",
+    "downloadTimestamp": "2026-06-11T06:11:31.001207+00:00",
     "originalDimensions": [
       2394,
       2280
@@ -551,65 +376,179 @@
     "rightsReviewNotes": "Observational planetary-nebula image; NASA Image Library record credits GSFC."
   },
   {
-    "nasaId": "9126013",
-    "originalTitle": "Spacelab",
-    "description": "This is a presentation of two comparison images of the Spiral Galaxy M81 in the constellation URA Major. The galaxy is about 12-million light years from Earth. The left image is the Spiral Galaxy M81 as photographed by the Ultraviolet Imaging Telescope (UIT) during the Astro-1 Mission (STS-35) on December 9, 1990. This UIT photograph, made with ultraviolet light, reveals regions where new stars are forming at a rapid rate. The right image is a photograph of the same galaxy in red light made with a 36-inch (0.9-meter) telescope at the Kitt Peak National Observatory near Tucson, Arizona. The Astro Observatory was designed to explore the universe by observing and measuring ultraviolet radiation from celestial objects. Three instruments made up the Astro Observatory: The Hopkins Ultraviolet Telescope (HUT), the Ultraviolet Imaging Telescope (UIT), and the Wisconsin Ultraviolet Photo-Polarimetry Experiment (WUPPE). The Marshall Space Flight Center had management responsibilities for the Astro-1 mission. The Astro-1 Observatory was launched aboard the Space Shuttle Orbiter Columbia (STS-35) on December 2, 1990.",
-    "photographer": "",
-    "center": "MSFC",
-    "dateCreated": "1990-12-09T00:00:00Z",
+    "nasaId": "PIA17552",
+    "originalTitle": "Death Beckons Three Aging Stars",
+    "description": "This trio of ghostly images from NASA Spitzer Space Telescope shows the disembodied remains of dying stars called planetary nebulas. Planetary nebulas are a late stage in a sun-like star life.",
+    "photographer": "NASA/JPL-Caltech/Harvard-Smithsonian CfA",
+    "center": "JPL",
+    "dateCreated": "2013-10-28T23:23:36Z",
     "keywords": [
-      "Astro-1",
-      "Ultraviolet Imaging Telescope",
-      "UIT",
-      "Spiral Galaxy",
-      "M81"
+      "Spitzer Space Telescope"
     ],
-    "originalAssetUrl": "http://images-assets.nasa.gov/image/9126013/9126013~orig.jpg",
-    "nasaRecordUrl": "https://images.nasa.gov/details/9126013",
-    "downloadTimestamp": "2026-06-10T12:16:09.061836+00:00",
+    "originalAssetUrl": "http://images-assets.nasa.gov/image/PIA17552/PIA17552~orig.jpg",
+    "nasaRecordUrl": "https://images.nasa.gov/details/PIA17552",
+    "downloadTimestamp": "2026-06-11T06:11:50.444374+00:00",
     "originalDimensions": [
-      3000,
-      1472
+      3600,
+      2023
     ],
     "finalDimensions": [
       2400,
-      1178
+      1349
     ],
-    "originalSha256": "f291f498ba55c67400b8a4dba5ffb5741b137f38f2840837b66e871312a8ce21",
-    "finalSha256": "72610afa3d8dc2cbcc300246ac5ae95a047282525f5bf7643baea4af14f6e7a8",
-    "credit": "MSFC",
+    "originalSha256": "06993eb47c930a6b632a994f08ff06600a5b037bc82a14545ef0a54a5e4bc923",
+    "finalSha256": "ac7f05b7cc4ec1732d9c8b4ef7a074ee2e246662f33698c0bdb79510abbae670",
+    "credit": "NASA/JPL-Caltech/Harvard-Smithsonian CfA",
     "potentialThirdPartyIndicators": [],
-    "rightsReviewStatus": "rejected",
-    "rightsReviewNotes": "Comparative rendered diagram is unsuitable for the observational-image pool."
+    "rightsReviewStatus": "pending",
+    "rightsReviewNotes": "Manual review required."
   },
   {
-    "nasaId": "iss040e073872",
-    "originalTitle": "Earth Observation",
-    "description": "Earth Observation taken during a night pass by the Expedition 40 crew aboard the International Space Station (ISS). Folder lists this as: Cairo and Israel at night.",
-    "photographer": "Reid Wiseman",
-    "center": "JSC",
-    "dateCreated": "2014-07-22T00:00:00Z",
+    "nasaId": "0302062",
+    "originalTitle": "History of Hubble Space Telescope (HST)",
+    "description": "The nearby intense star-forming region known as the Great Nebula in the Orion constellation reveals a bow shock around a very young star as seen by NASA's Hubble Space Telescope (HST). Named for the crescent-shaped wave made by a ship as it moves through the water, a bow shock can be created in space where two streams of gas collide. LL Ori emits a vigorous solar wind, a stream of charged particles moving rapidly outward from the star. Our own sun has a less energetic version of this wind. The material in the fast wind from LL Ori collides with slow moving gas evaporating away form the center of the Orion Nebula, which is located in the lower right of this image, producing the crescent shaped bow shock seen in the image. Astronomers have identified numerous shock fronts in this complex star-forming region and are using this data to understand the many complex phenomena associated with the birth of stars. A close visitor in our Milky Way Galaxy, the nebula is only 1,500 light years away from Earth. The filters used in this color composite represent oxygen, nitrogen, and hydrogen emissions.",
+    "photographer": "",
+    "center": "MSFC",
+    "dateCreated": "1995-02-01T00:00:00Z",
     "keywords": [
-      "EARTH OBSERVATIONS (FROM SPACE)  EXPEDITION 40",
-      "TWEETED PHOTO",
-      "SOCIAL MEDIA"
+      "Great Nebula",
+      "Orion",
+      "Bow Shock"
     ],
-    "originalAssetUrl": "http://images-assets.nasa.gov/image/iss040e073872/iss040e073872~orig.jpg",
-    "nasaRecordUrl": "https://images.nasa.gov/details/iss040e073872",
-    "downloadTimestamp": "2026-06-10T12:16:13.804840+00:00",
+    "originalAssetUrl": "http://images-assets.nasa.gov/image/0302062/0302062~orig.jpg",
+    "nasaRecordUrl": "https://images.nasa.gov/details/0302062",
+    "downloadTimestamp": "2026-06-11T06:11:58.312550+00:00",
     "originalDimensions": [
-      4256,
-      2832
+      3000,
+      2500
     ],
     "finalDimensions": [
       2400,
-      1597
+      2000
     ],
-    "originalSha256": "28c36fe320b70ad391427949823507a7c1272c484852ce198b0eaae6a9f25e3e",
-    "finalSha256": "397201c4224c724e7e75c1113795343e99636dcc1583cd9074edb635d9632a11",
-    "credit": "Reid Wiseman",
+    "originalSha256": "3283d03a7504f1287e82741c38d5d9eb78c0339e6cf8b83ce6df00d53d420c42",
+    "finalSha256": "45b9c7189727c3033331b34ad925f68bf0fc98016f7916eae253edc172d9922a",
+    "credit": "MSFC",
     "potentialThirdPartyIndicators": [],
-    "rightsReviewStatus": "approved",
-    "rightsReviewNotes": "Earth-at-night observation from orbit; preserve the named contributor credit."
+    "rightsReviewStatus": "pending",
+    "rightsReviewNotes": "Manual review required."
+  },
+  {
+    "nasaId": "PIA19357",
+    "originalTitle": "What on Mars is a High Thermal-Inertia Surface?",
+    "description": "Coprates Chasma is located in the huge canyon system, Vallis Marineris. NASA Mars Reconnaissance Orbiter finds indications of high thermal inertia.  What do we mean when we describe a surface as having \"high thermal inertia\"? The term refers to the ability of a material to conduct and store heat, and in planetary science, its measure of the subsurface's ability to store heat during the day and reradiate it during the night.  What causes thermal inertia? It depends on the composition of the terrain that we're studying. Here in Coprates Chasma, the site of this observation, we find indications of such high thermal inertia, so an image at high resolution may help us determine the composition and structure to give us an answer.  http://photojournal.jpl.nasa.gov/catalog/PIA19357",
+    "photographer": "NASA/JPL-Caltech/University of Arizona",
+    "center": "JPL",
+    "dateCreated": "2015-04-08T23:00:02Z",
+    "keywords": [
+      "Mars",
+      "Mars Reconnaissance Orbiter MRO",
+      "HiRISE"
+    ],
+    "originalAssetUrl": "http://images-assets.nasa.gov/image/PIA19357/PIA19357~orig.jpg",
+    "nasaRecordUrl": "https://images.nasa.gov/details/PIA19357",
+    "downloadTimestamp": "2026-06-11T06:12:05.999468+00:00",
+    "originalDimensions": [
+      2880,
+      1800
+    ],
+    "finalDimensions": [
+      2400,
+      1500
+    ],
+    "originalSha256": "d6754542d99fa9bb60ad3f4ef2bb008d558d00e30d177cb3df35c4fa6a0ec593",
+    "finalSha256": "5e3d64b280b7a00eb3872023196c57f7e9478fe683544f8f296fa22e3b30e285",
+    "credit": "NASA/JPL-Caltech/University of Arizona",
+    "potentialThirdPartyIndicators": [],
+    "rightsReviewStatus": "pending",
+    "rightsReviewNotes": "Manual review required."
+  },
+  {
+    "nasaId": "PIA05732",
+    "originalTitle": "Nursery of Giants",
+    "description": "Hidden behind a shroud of dust in the constellation Cygnus is a stellar nursery called DR21, which is giving birth to some of the most massive stars in our galaxy. Visible light images reveal no trace of this interstellar cauldron because of heavy dust obscuration. In fact, visible light is attenuated in DR21 by a factor of more than 10,000,000,000,000,000,000,000,000,000,000,000,000,000 (ten thousand trillion heptillion).  New images from NASA's Spitzer Space Telescope allow us to peek behind the cosmic veil and pinpoint one of the most massive natal stars yet seen in our Milky Way galaxy. The never-before-seen star is 100,000 times as bright as the Sun. Also revealed for the first time is a powerful outflow of hot gas emanating from this star and bursting through a giant molecular cloud.  This image is a large-scale mosaic assembled from individual photographs obtained with the InfraRed Array Camera (IRAC) aboard Spitzer. The image covers an area about two times that of a full moon. The mosaic is a composite of images obtained at mid-infrared wavelengths of 3.6 microns (blue), 4.5 microns (green), 5.8 microns (orange) and 8 microns (red). The brightest infrared cloud near the top center corresponds to DR21, which presumably contains a cluster of newly forming stars at a distance of 10,000 light-years.  Protruding out from DR21 toward the bottom left of the image is a gaseous outflow (green), containing both carbon monoxide and molecular hydrogen. Data from the Spitzer spectrograph, which breaks light into its constituent individual wavelengths, indicate the presence of hot steam formed as the outflow heats the surrounding molecular gas. Outflows are physical signatures of processes that create supersonic beams, or jets, of gas. They are usually accompanied by discs of material around the new star, which likely contain the materials from which future planetary systems are formed. Additional newborn stars, depicted in green, can be seen surrounding the DR21 region.  The red filaments stretching across this image denote the presence of polycyclic aromatic hydrocarbons. These organic molecules, comprised of carbon and hydrogen, are excited by surrounding interstellar radiation and become luminescent at wavelengths near 8.0 microns. The complex pattern of filaments is caused by an intricate combination of radiation pressure, gravity and magnetic fields. The result is a tapestry in which winds, outflows and turbulence move and shape the interstellar medium.  To the lower left of the mosaic is a large bubble of gas and dust, which may represent the remnants of a past generation of stars.  http://photojournal.jpl.nasa.gov/catalog/PIA05732",
+    "photographer": "NASA/JPL-Caltech",
+    "center": "JPL",
+    "dateCreated": "2004-04-13T17:58:00Z",
+    "keywords": [
+      "Spitzer Space Telescope",
+      "Cygnus"
+    ],
+    "originalAssetUrl": "http://images-assets.nasa.gov/image/PIA05732/PIA05732~orig.jpg",
+    "nasaRecordUrl": "https://images.nasa.gov/details/PIA05732",
+    "downloadTimestamp": "2026-06-11T06:12:09.263229+00:00",
+    "originalDimensions": [
+      3652,
+      1936
+    ],
+    "finalDimensions": [
+      2400,
+      1272
+    ],
+    "originalSha256": "9aa3dd11ddf219a6efba9eeebe39614df07e41ba187917491b4bb691eaa51298",
+    "finalSha256": "70daa70e4f5bd16e3ef832ef9a9922c1b4b52f510654de785ef9168accdfe713",
+    "credit": "NASA/JPL-Caltech",
+    "potentialThirdPartyIndicators": [],
+    "rightsReviewStatus": "pending",
+    "rightsReviewNotes": "Manual review required."
+  },
+  {
+    "nasaId": "PIA16884",
+    "originalTitle": "Taken Under the Wing of the Small Magellanic Cloud",
+    "description": "The tip of the wing of the Small Magellanic Cloud galaxy is dazzling in this new view from NASA Great Observatories. The SMC, is a small galaxy about 200,000 light-years way that orbits our own Milky Way spiral galaxy.",
+    "photographer": "NASA/CXC/JPL-Caltech/STScI",
+    "center": "JPL",
+    "dateCreated": "2013-04-03T17:21:12Z",
+    "keywords": [
+      "Chandra X-ray Observatory,Hubble Space Telescope,Spitzer Space T"
+    ],
+    "originalAssetUrl": "http://images-assets.nasa.gov/image/PIA16884/PIA16884~orig.jpg",
+    "nasaRecordUrl": "https://images.nasa.gov/details/PIA16884",
+    "downloadTimestamp": "2026-06-11T06:12:15.051440+00:00",
+    "originalDimensions": [
+      3600,
+      3600
+    ],
+    "finalDimensions": [
+      2400,
+      2400
+    ],
+    "originalSha256": "e3ba5fab9a32962fcee051313a43a2201423fbff8bec50cc41766637c467754a",
+    "finalSha256": "b5d6b6474064a342cca54a469ad3b53d7e3304257c06d864f9a758044bebb91f",
+    "credit": "NASA/CXC/JPL-Caltech/STScI",
+    "potentialThirdPartyIndicators": [
+      "stsci"
+    ],
+    "rightsReviewStatus": "pending",
+    "rightsReviewNotes": "Manual review required."
+  },
+  {
+    "nasaId": "PIA09653",
+    "originalTitle": "Galaxy Evolution Explorer Spies Band of Stars",
+    "description": "Globular star cluster NGC 362, in a false-color image from NASA's Galaxy Evolution Explorer. Image credit: NASA/JPL-Caltech/Univ. of Virginia   The Galaxy Evolution Explorer's ultraviolet eyes have captured a globular star cluster, called NGC 362, in our own Milky Way galaxy. In this new image, the cluster appears next to stars from a more distant neighboring galaxy, known as the Small Magellanic Cloud.   \"This image is so interesting because it allows a study of the final stages of evolution of low-mass stars in NGC 362, as well as the history of star formation in the Small Magellanic Cloud,\" said Ricardo Schiavon of the University of Virginia, Charlottesville, Va.   Globular clusters are densely packed bunches of old stars scattered in galaxies throughout the universe. NGC 362, located 30,000 light-years away, can be spotted as the dense collection of mostly yellow-tinted stars surrounding a large white-yellow spot toward the top-right of this image. The white spot is actually the core of the cluster, which is made up of stars so closely packed together that the Galaxy Evolution Explorer cannot see them individually.   The light blue dots surrounding the cluster core are called extreme horizontal branch stars. These stars used to be very similar to our sun and are nearing the end of their lives. They are very hot, with temperatures reaching up to about four times that of the surface of our sun (25,000 Kelvin or 45,500 degrees Fahrenheit).   A star like our sun spends most of its life fusing hydrogen atoms in its core into helium. When the star runs out of hydrogen in its core, its outer envelope will expand. The star then becomes a red giant, which burns hydrogen in a shell surrounding its inner core. Throughout its life as a red giant, the star loses a lot of mass, then begins to burn helium at its core. Some stars will have lost so much mass at the end of this process, up to 85 percent of their envelopes, that most of the envelope is gone. What is left is a very hot ultraviolet-bright core, or extreme horizontal branch star.   Blue dots scattered throughout the image are hot, young stars in the Small Magellanic Cloud, a satellite galaxy of the Milky Way located approximately 200,000 light-years away. The stars in this galaxy are much brighter intrinsically than extreme horizontal branch stars, but they appear just as bright because they are farther away. The blue stars in the Small Magellanic Cloud are only about a few tens of millions of years old, much younger than the approximately 10-million-year-old stars in NGC 362.   Because NGC 362 sits on the northern edge of the Small Magellanic Cloud galaxy, the blue stars are denser toward the south, or bottom, of the image.   Some of the yellow spots in this image are stars in the Milky Way galaxy that are along this line of sight. Astronomers believe that some of the other spots, particularly those closer to NGC 362, might actually be a relatively ultraviolet-dim family of stars called \"blue stragglers.\" These stars are formed from collisions or close encounters between two closely orbiting stars in a globular cluster.   \"This observation could only be done with the Galaxy Evolution Explorer because it is the only ultraviolet imager available to the astronomical community with such a large field of view,\" said Schiavon.   This image is a false-color composite, where light detected by the Galaxy Evolution Explorer's far-ultraviolet detector is colored blue, and light from the telescope's near-ultraviolet detector is red.       Written by Linda Vu, Spitzer Science Center Media contact: Whitney Clavin/JPL (818) 354-4673",
+    "photographer": "NASA/JPL-Caltech/Univ. of Virginia",
+    "center": "JPL",
+    "dateCreated": "2007-06-20T22:00:14Z",
+    "keywords": [
+      "NGC 362",
+      "Galaxy Evolution Explorer GALEX"
+    ],
+    "originalAssetUrl": "http://images-assets.nasa.gov/image/PIA09653/PIA09653~orig.jpg",
+    "nasaRecordUrl": "https://images.nasa.gov/details/PIA09653",
+    "downloadTimestamp": "2026-06-11T06:12:20.022559+00:00",
+    "originalDimensions": [
+      2250,
+      2550
+    ],
+    "finalDimensions": [
+      2118,
+      2400
+    ],
+    "originalSha256": "ed724e92289a8fa3c47778d17e4e7dd73c29f951e45f643561d86906a36ca81a",
+    "finalSha256": "28d05725cc0c2d76d4342945bd71f5e79e6d1d1d223d77fa092cffe43f84fc9f",
+    "credit": "NASA/JPL-Caltech/Univ. of Virginia",
+    "potentialThirdPartyIndicators": [],
+    "rightsReviewStatus": "pending",
+    "rightsReviewNotes": "Manual review required."
   }
 ]

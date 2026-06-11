@@ -2,7 +2,7 @@ import type { GuessFeedback } from "@/src/types/game";
 import type { HslColor } from "@/src/types/puzzle";
 import { signedHueDistance } from "../color/hue";
 
-export const COMPONENT_TOLERANCE = 6;
+export const COMPONENT_TOLERANCE = 2;
 
 export function createFeedback(
   guess: HslColor,

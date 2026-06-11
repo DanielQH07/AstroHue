@@ -166,7 +166,7 @@ def quantized_candidates(image: Image.Image) -> list[dict[str, Any]]:
     quantized = work.quantize(colors=12, method=Image.Quantize.MEDIANCUT)
     palette = quantized.getpalette() or []
     counts = sorted(quantized.getcolors() or [], reverse=True)
-    indices = list(quantized.get_flattened_data())
+    indices = list(quantized.getdata())
     total = work.width * work.height
     candidates: list[dict[str, Any]] = []
     for count, index in counts:
@@ -251,8 +251,8 @@ def robust_target(image: Image.Image, candidate: dict[str, Any]) -> tuple[dict[s
         max(0, center_x - radius), max(0, center_y - radius),
         min(image.width, center_x + radius + 1), min(image.height, center_y + radius + 1),
     ))
-    valid_pixels = [rgb for rgb in patch.get_flattened_data() if valid_sample_pixel(rgb)]
-    if len(valid_pixels) < max(40, len(patch.get_flattened_data()) * 0.35):
+    valid_pixels = [rgb for rgb in patch.getdata() if valid_sample_pixel(rgb)]
+    if len(valid_pixels) < max(40, len(list(patch.getdata())) * 0.35):
         raise ValueError("sample patch lacks enough valid colored pixels")
     dominant = [
         rgb for rgb in valid_pixels

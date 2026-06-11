@@ -131,23 +131,36 @@ h3 { font-size: 1.6rem; }
 }
 .restoration-patch {
   position: absolute; z-index: 2; transform: translate(-50%, -50%);
-  border: none; padding: 0; background: transparent; border-radius: 50%; cursor: zoom-in;
-}
-.restoration-effect {
-  backdrop-filter: grayscale(1) contrast(1.05) brightness(var(--brightness, 1));
-  -webkit-backdrop-filter: grayscale(1) contrast(1.05) brightness(var(--brightness, 1));
-  background: color-mix(in srgb, var(--guess-color) 80%, transparent);
+  border: none; padding: 0; background: transparent; border-radius: 50%;
+  overflow: hidden; cursor: zoom-in;
   -webkit-mask-image: radial-gradient(circle, #000 42%, transparent 96%);
   mask-image: radial-gradient(circle, #000 42%, transparent 96%);
-  border-radius: 50%; transition: background-color .12s ease;
 }
-.restoration-effect::after {
-  content: ""; position: absolute; inset: 0; border-radius: inherit;
-  background: var(--guess-color); opacity: .4; mix-blend-mode: color;
+.restoration-base {
+  display: block; position: absolute; max-width: none; pointer-events: none;
+}
+.restoration-tint {
+  display: block; position: absolute; inset: 0; pointer-events: none;
+  background: var(--guess-color); mix-blend-mode: color;
   transition: background-color .12s ease;
 }
-.crop-restoration-patch { position: absolute; z-index: 2; aspect-ratio: 1; transform: translate(-50%, -50%); pointer-events: none; }
-.result-restoration-patch { position: absolute; z-index: 2; aspect-ratio: 1; transform: translate(-50%, -50%); pointer-events: none; }
+.crop-restoration-patch {
+  position: absolute; z-index: 2; aspect-ratio: 1; transform: translate(-50%, -50%);
+  border-radius: 50%; overflow: hidden; pointer-events: none;
+  backdrop-filter: grayscale(1) contrast(1.05) brightness(var(--brightness, 1));
+  -webkit-backdrop-filter: grayscale(1) contrast(1.05) brightness(var(--brightness, 1));
+}
+.crop-restoration-patch::after {
+  content: ""; position: absolute; inset: 0; border-radius: inherit;
+  background: var(--guess-color); mix-blend-mode: color;
+  transition: background-color .12s ease;
+}
+.result-restoration-patch {
+  position: absolute; z-index: 2; aspect-ratio: 1; transform: translate(-50%, -50%);
+  border-radius: 50%; overflow: hidden; pointer-events: none;
+  -webkit-mask-image: radial-gradient(circle, #000 42%, transparent 96%);
+  mask-image: radial-gradient(circle, #000 42%, transparent 96%);
+}
 @keyframes ringPulse {
   0%, 100% { opacity: .7; transform: translate(-50%, -50%) scale(1); }
   50% { opacity: .3; transform: translate(-50%, -50%) scale(1.08); }

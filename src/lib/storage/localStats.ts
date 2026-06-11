@@ -22,7 +22,7 @@ export type StoredRound = {
 export type AstroStorage = {
   version: 1;
   onboardingDismissed: boolean;
-  playedIds: string[];
+  scores: Record<string, number>;
   stats: GameStats;
   round?: StoredRound;
 };
@@ -39,7 +39,7 @@ export const EMPTY_STATS: GameStats = {
 export const DEFAULT_STORAGE: AstroStorage = {
   version: 1,
   onboardingDismissed: false,
-  playedIds: [],
+  scores: {},
   stats: EMPTY_STATS,
 };
 
@@ -47,7 +47,7 @@ export function loadStorage(): AstroStorage {
   try {
     const raw = window.localStorage.getItem(STORAGE_KEY);
     if (!raw) return structuredClone(DEFAULT_STORAGE);
-    const parsed = JSON.parse(raw) as Partial<AstroStorage>;
+    const parsed = JSON.parse(raw) as Partial<AstroStorage> & { playedIds?: string[] };
     if (parsed.version !== 1) return structuredClone(DEFAULT_STORAGE);
     const round =
       parsed.round?.puzzle?.inspectionRegion && parsed.round.puzzle.samplePoint
@@ -56,9 +56,11 @@ export function loadStorage(): AstroStorage {
     return {
       version: 1,
       onboardingDismissed: Boolean(parsed.onboardingDismissed),
-      playedIds: Array.isArray(parsed.playedIds)
-        ? parsed.playedIds.filter((id): id is string => typeof id === "string")
-        : [],
+      scores: typeof parsed.scores === "object" && parsed.scores !== null
+        ? parsed.scores
+        : Array.isArray(parsed.playedIds)
+          ? Object.fromEntries(parsed.playedIds.filter(id => typeof id === "string").map((id) => [id, 0]))
+          : {},
       stats: { ...EMPTY_STATS, ...parsed.stats },
       ...(round ? { round } : {}),
     };

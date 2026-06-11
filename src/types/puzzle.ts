@@ -53,6 +53,7 @@ export type AstroPuzzle = {
   targetPoint: TargetPoint;
   samplePoint?: NormalizedPoint;
   sampleRadius?: number;
+  maskSrc?: string;
   inspectionRegion?: NormalizedRegion;
   imageSha256: string;
   paletteCandidates?: Array<HslColor & { hex: string; score: number }>;
@@ -61,7 +62,7 @@ export type AstroPuzzle = {
 
 export type PublicPuzzle = Pick<
   AstroPuzzle,
-  "id" | "imageSrc" | "width" | "height"
+  "id" | "imageSrc" | "width" | "height" | "maskSrc"
 > & {
   collectionLabel: string;
   maxAttempts: 5;

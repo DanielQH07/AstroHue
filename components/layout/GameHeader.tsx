@@ -8,19 +8,29 @@ import { Button } from "@/components/ui/Button";
 type Props = {
   streak?: number;
   onOpenStats?: () => void;
+  onGoHome?: () => void;
 };
 
-export function GameHeader({ streak = 0, onOpenStats }: Props) {
+export function GameHeader({ streak = 0, onOpenStats, onGoHome }: Props) {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <header className="site-header">
       <div className="site-header-inner">
-        <Link href="/" className="wordmark" aria-label="AstroHue home">
-          <span className="orbit-mark" aria-hidden="true">
-            <Telescope size={17} />
-          </span>
-          <span>ASTRO<br />HUE</span>
-        </Link>
+        {onGoHome ? (
+          <button className="wordmark" aria-label="AstroHue home" onClick={onGoHome}>
+            <span className="orbit-mark" aria-hidden="true">
+              <Telescope size={17} />
+            </span>
+            <span>ASTRO<br />HUE</span>
+          </button>
+        ) : (
+          <Link href="/" className="wordmark" aria-label="AstroHue home">
+            <span className="orbit-mark" aria-hidden="true">
+              <Telescope size={17} />
+            </span>
+            <span>ASTRO<br />HUE</span>
+          </Link>
+        )}
         <nav className="desktop-nav" aria-label="Main navigation">
           <Link href="/how-to-play">How to Play</Link>
           <Link href="/about">About</Link>

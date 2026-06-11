@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/Button";
 import { Dialog } from "@/components/ui/Dialog";
 import type { GuessRecord, RevealData } from "@/src/types/game";
 import type { HslColor, PublicPuzzle } from "@/src/types/puzzle";
-import { RESTORATION_PATCH_FRAC, restorationBrightness } from "@/src/lib/game/targetGeometry";
+import { restorationBrightness } from "@/src/lib/game/targetGeometry";
 
 function ResultImage({
   puzzle,
@@ -20,7 +20,6 @@ function ResultImage({
   label: string;
   masked: boolean;
 }) {
-  const patchPct = RESTORATION_PATCH_FRAC * Math.min(puzzle.width, puzzle.height) / puzzle.width * 100;
   const brightness = restorationBrightness(guess.l);
   return (
     <div className="result-image-compare">
@@ -29,15 +28,31 @@ function ResultImage({
         <Image src={puzzle.imageSrc} alt="" fill sizes="320px" className="challenge-image" />
         {masked ? (
           <div
-            className="result-restoration-patch restoration-effect"
+            className="restoration-overlay"
             style={{
-              left: `${puzzle.samplePoint.x * 100}%`,
-              top: `${puzzle.samplePoint.y * 100}%`,
-              width: `${patchPct}%`,
+              position: "absolute",
+              inset: 0,
               "--guess-color": `hsl(${guess.h} ${guess.s}% ${guess.l}%)`,
-              "--brightness": brightness,
+              WebkitMaskImage: puzzle.maskSrc ? `url(${puzzle.maskSrc})` : "none",
+              maskImage: puzzle.maskSrc ? `url(${puzzle.maskSrc})` : "none",
+              WebkitMaskSize: "100% 100%",
+              maskSize: "100% 100%",
+              pointerEvents: "none",
             } as CSSProperties}
-          />
+            aria-hidden="true"
+          >
+            <img
+              src={puzzle.imageSrc}
+              className="restoration-base"
+              style={{
+                width: "100%",
+                height: "100%",
+                filter: `grayscale(1) brightness(${brightness}) contrast(1.05)`,
+              }}
+              alt=""
+            />
+            <i className="restoration-tint" aria-hidden="true" />
+          </div>
         ) : null}
       </div>
     </div>

@@ -6,14 +6,14 @@ import type { PublicPuzzle } from "@/src/types/puzzle";
 
 export function ChallengeGrid({
   puzzles,
-  playedIds,
+  scores,
   onSelect,
 }: {
   puzzles: PublicPuzzle[];
-  playedIds: string[];
+  scores: Record<string, number>;
   onSelect: (puzzle: PublicPuzzle) => void;
 }) {
-  const played = new Set(playedIds);
+
 
   return (
     <section className="challenge-picker" aria-labelledby="challenge-picker-title">
@@ -38,7 +38,7 @@ export function ChallengeGrid({
             />
             <span>
               <b>{String(index + 1).padStart(2, "0")}</b>
-              {played.has(puzzle.id) ? "Played" : "Play"}
+              {scores[puzzle.id] !== undefined ? `Score: ${scores[puzzle.id]}` : "Play"}
               <Play size={14} aria-hidden="true" />
             </span>
           </button>

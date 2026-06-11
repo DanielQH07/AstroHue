@@ -28,7 +28,6 @@ import { HslSliderField } from "./HslSliderField";
 import { ImageZoomDialog } from "./ImageZoomDialog";
 import { ResultPanel } from "./ResultPanel";
 import { StatsDialog } from "./StatsDialog";
-import { TargetRegionInspector } from "./TargetRegionInspector";
 
 export function AstroGame() {
   const [status, setStatus] = useState<GameStatus>("loading");
@@ -39,14 +38,14 @@ export function AstroGame() {
   const [history, setHistory] = useState<GuessRecord[]>([]);
   const [reveal, setReveal] = useState<RevealData>();
   const [error, setError] = useState("");
-  const [playedIds, setPlayedIds] = useState<string[]>([]);
+  const [scores, setScores] = useState<Record<string, number>>({});
+  const playedIds = Object.keys(scores);
   const [stats, setStats] = useState<GameStats>(EMPTY_STATS);
   const [onboardingOpen, setOnboardingOpen] = useState(false);
   const [statsOpen, setStatsOpen] = useState(false);
   const [zoomOpen, setZoomOpen] = useState(false);
   const [copyStatus, setCopyStatus] = useState("");
   const abortRef = useRef<AbortController | null>(null);
-  const inspectorRef = useRef<HTMLButtonElement | null>(null);
   const storageRef = useRef<AstroStorage>(structuredClone(DEFAULT_STORAGE));
   const hydrated = useRef(false);
 
@@ -106,7 +105,7 @@ export function AstroGame() {
       void (async () => {
       const stored = loadStorage();
       storageRef.current = stored;
-      setPlayedIds(stored.playedIds);
+      setScores(stored.scores);
       setStats(stored.stats);
       setOnboardingOpen(!stored.onboardingDismissed);
       await loadChallenges();
@@ -165,10 +164,10 @@ export function AstroGame() {
       if (data.completed && data.reveal) {
         setReveal(data.reveal);
         setStatus(data.won ? "won" : "lost");
-        setPlayedIds((ids) => [...new Set([...ids, puzzle.id])]);
+        setScores((prev) => ({ ...prev, [puzzle.id]: data.score }));
         const nextStats = updateStats(stats, data.won, data.attempt);
         setStats(nextStats);
-        storageRef.current = { ...storageRef.current, playedIds: [...new Set([...playedIds, puzzle.id])], stats: nextStats, round: undefined };
+        storageRef.current = { ...storageRef.current, scores: { ...scores, [puzzle.id]: data.score }, stats: nextStats, round: undefined };
         saveStorage(storageRef.current);
       } else {
         setToken(data.nextRoundToken ?? token);
@@ -189,7 +188,7 @@ export function AstroGame() {
   if (!puzzle && status === "loading") {
     return (
       <>
-        <GameHeader onOpenStats={() => setStatsOpen(true)} />
+        <GameHeader onOpenStats={() => setStatsOpen(true)} onGoHome={() => { setPuzzle(undefined); setStatus("selecting"); persist(undefined); }} />
         <main className="loading-shell" aria-live="polite">
           <LoaderCircle className="spinner" aria-hidden="true" />
           <h1>Opening the observatory</h1>
@@ -202,7 +201,7 @@ export function AstroGame() {
   if (!puzzle && status === "selecting") {
     return (
       <>
-        <GameHeader streak={stats.currentStreak} onOpenStats={() => setStatsOpen(true)} />
+        <GameHeader streak={stats.currentStreak} onOpenStats={() => setStatsOpen(true)} onGoHome={() => { setPuzzle(undefined); setStatus("selecting"); persist(undefined); }} />
         <main className="game-shell">
           <section className="game-status">
             <div>
@@ -212,7 +211,7 @@ export function AstroGame() {
           </section>
           <ChallengeGrid
             puzzles={challenges}
-            playedIds={playedIds}
+            scores={scores}
             onSelect={(item) => void loadRound(playedIds, item.id)}
           />
         </main>
@@ -226,7 +225,7 @@ export function AstroGame() {
   if (!puzzle) {
     return (
       <>
-        <GameHeader onOpenStats={() => setStatsOpen(true)} />
+        <GameHeader onOpenStats={() => setStatsOpen(true)} onGoHome={() => { setPuzzle(undefined); setStatus("selecting"); persist(undefined); }} />
         <main className="error-shell">
           <p className="eyebrow">Signal interrupted</p>
           <h1>The observatory could not open</h1>
@@ -240,7 +239,7 @@ export function AstroGame() {
   return (
     <>
       <a className="skip-link" href="#game-controls">Skip to game controls</a>
-      <GameHeader streak={stats.currentStreak} onOpenStats={() => setStatsOpen(true)} />
+      <GameHeader streak={stats.currentStreak} onOpenStats={() => setStatsOpen(true)} onGoHome={() => { setPuzzle(undefined); setStatus("selecting"); persist(undefined); }} />
       <main className="game-shell">
         <section className="game-status">
           <div>
@@ -266,14 +265,7 @@ export function AstroGame() {
             puzzle={puzzle}
             guess={guess}
             reveal={reveal}
-            onInspect={() => inspectorRef.current?.focus()}
             onZoom={() => setZoomOpen(true)}
-          />
-          <TargetRegionInspector
-            ref={inspectorRef}
-            puzzle={puzzle}
-            guess={guess}
-            onOpenZoom={() => setZoomOpen(true)}
           />
           <section id="game-controls" className="control-panel" aria-labelledby="controls-title">
             <p className="eyebrow">Your color</p>
