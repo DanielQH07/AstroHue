@@ -1,0 +1,898 @@
+[
+  {
+    "id": "nasa-pia10388",
+    "imageSrc": "/astro/nasa/pia10388.webp",
+    "title": "AM 0500-620 - Spiral Arms and Bright Knots",
+    "description": "AM 0500-620 consists of a highly symmetric spiral galaxy seen nearly face-on and partially backlit by a background galaxy. This image is part of a large collection of images of merging galaxies taken by NASA Hubble Space Telescope.",
+    "credit": "NASA, ESA, the Hubble Heritage Team STScI/AURA-ESA/Hubble Collaboration, and W. Keel University of Alabama, Tuscaloosa",
+    "sourceLabel": "NASA Image and Video Library",
+    "sourceUrl": "https://images.nasa.gov/details/PIA10388",
+    "nasaId": "PIA10388",
+    "dateCreated": "2008-04-24T14:04:48Z",
+    "center": "JPL",
+    "keywords": [
+      "Hubble Space Telescope"
+    ],
+    "width": 1669,
+    "height": 1669,
+    "imageSha256": "992d50c834db9e023e9410ba1ade1bdef6fa2e3e976b0ccf2b8fc47e28de7008",
+    "target": {
+      "h": 39,
+      "s": 21,
+      "l": 39
+    },
+    "targetHex": "#77694E",
+    "targetPoint": {
+      "x": 0.5676,
+      "y": 0.5412
+    },
+    "samplePoint": {
+      "x": 0.5676,
+      "y": 0.5412
+    },
+    "sampleRadius": 0.026,
+    "inspectionRegion": {
+      "centerX": 0.5676,
+      "centerY": 0.5412,
+      "width": 0.44,
+      "height": 0.44
+    },
+    "rightsReview": {
+      "status": "approved",
+      "notes": "Astronomy image retained; target recomputed from a bright homogeneous sample patch. Manual sample-patch review recommended."
+    }
+  },
+  {
+    "id": "nasa-pia08516",
+    "imageSrc": "/astro/nasa/pia08516.webp",
+    "title": "Dusty Death of a Massive Star",
+    "description": "NASA Spitzer Space Telescope shows the supernova remnant 1E0102.2-7219 sits next to the nebula N76 in a bright, star-forming region of the Small Magellanic Cloud, a satellite galaxy to our Milky Way galaxy.",
+    "credit": "NASA/JPL-Caltech/ UC Berkeley",
+    "sourceLabel": "NASA Image and Video Library",
+    "sourceUrl": "https://images.nasa.gov/details/PIA08516",
+    "nasaId": "PIA08516",
+    "dateCreated": "2006-06-06T15:55:08Z",
+    "center": "JPL",
+    "keywords": [
+      "Hubble Space Telescope,Spitzer Space Telescope"
+    ],
+    "width": 1778,
+    "height": 1778,
+    "imageSha256": "29b952ffb4bb3cc2bbfa5c560a97a0c5aedf53d13f32847e79c09f9da9968080",
+    "target": {
+      "h": 16,
+      "s": 77,
+      "l": 59
+    },
+    "targetHex": "#E76F44",
+    "targetPoint": {
+      "x": 0.5412,
+      "y": 0.6206
+    },
+    "samplePoint": {
+      "x": 0.5412,
+      "y": 0.6206
+    },
+    "sampleRadius": 0.026,
+    "inspectionRegion": {
+      "centerX": 0.5412,
+      "centerY": 0.6206,
+      "width": 0.44,
+      "height": 0.44
+    },
+    "rightsReview": {
+      "status": "approved",
+      "notes": "Astronomy image retained; target recomputed from a bright homogeneous sample patch. Manual sample-patch review recommended."
+    }
+  },
+  {
+    "id": "nasa-0200145",
+    "imageSrc": "/astro/nasa/0200145.webp",
+    "title": "History of Chandra X-Ray Observatory",
+    "description": "This image is a color composite of the supernova remnant E0102-72: x-ray (blue), optical (green), and radio (red). E0102-72 is the remnant of a star that exploded in a nearby galaxy known as the Small Magellanic Cloud. The star exploded outward at speeds in excess of 20 million kilometers per hour (12 million mph) and collided with surrounding gas. This collision produced two shock waves, or cosmic sonic booms, one traveling outward, and the other rebounding back into the material ejected by the explosion. The radio image, shown in red, was made using the Australia Telescope Compact Array. The radio waves are due to extremely high-energy electrons spiraling around magnetic field lines in the gas and trace the outward moving shock wave. The Chandra X-ray Observatory image, shown in blue, shows gas that has been heated to millions of degrees by the rebounding, or reverse shock wave. The x-ray data show that this gas is rich in oxygen and neon. These elements were created by nuclear reactions inside the star and hurled into space by the supernova. The Hubble Space Telescope optical image, shown in green, shows dense clumps of oxygen gas that have \"cooled\" to about 30,000 degrees. Photo Credit: X-ray (NASA/CXC/SAO); optical (NASA/HST): radio: (ACTA)",
+    "credit": "MSFC",
+    "sourceLabel": "NASA Image and Video Library",
+    "sourceUrl": "https://images.nasa.gov/details/0200145",
+    "nasaId": "0200145",
+    "dateCreated": "2000-11-01T00:00:00Z",
+    "center": "MSFC",
+    "keywords": [
+      "Supernova Remnant",
+      "E0102-72",
+      "Chandra X-Ray Observatory",
+      "Australia Telescope Compact Array",
+      "Hubble Space Telescope"
+    ],
+    "width": 2400,
+    "height": 2380,
+    "imageSha256": "6e56901f116b47d6239f91edf45d5dca7697d1e86199e37e7a799ce1394a3963",
+    "target": {
+      "h": 243,
+      "s": 98,
+      "l": 24
+    },
+    "targetHex": "#080177",
+    "targetPoint": {
+      "x": 0.5118,
+      "y": 0.276
+    },
+    "samplePoint": {
+      "x": 0.5118,
+      "y": 0.276
+    },
+    "sampleRadius": 0.026,
+    "inspectionRegion": {
+      "centerX": 0.5118,
+      "centerY": 0.276,
+      "width": 0.44,
+      "height": 0.4437
+    },
+    "rightsReview": {
+      "status": "approved",
+      "notes": "Astronomy image retained; target recomputed from a bright homogeneous sample patch. Manual sample-patch review recommended."
+    }
+  },
+  {
+    "id": "nasa-pia10389",
+    "imageSrc": "/astro/nasa/pia10389.webp",
+    "title": "AM 1316-241",
+    "description": "AM 1316-241 is made up of two interacting galaxies—a spiral galaxy on the left of the frame in front of an elliptical galaxy on the right of the frame. This image is part of a large collection of images of merging galaxies taken by NASA Hubble.",
+    "credit": "NASA, ESA, the Hubble Heritage Team STScI/AURA-ESA/Hubble Collaboration, and W. Keel University of Alabama, Tuscaloosa",
+    "sourceLabel": "NASA Image and Video Library",
+    "sourceUrl": "https://images.nasa.gov/details/PIA10389",
+    "nasaId": "PIA10389",
+    "dateCreated": "2008-04-24T14:05:48Z",
+    "center": "JPL",
+    "keywords": [
+      "Hubble Space Telescope"
+    ],
+    "width": 1660,
+    "height": 1660,
+    "imageSha256": "c8e881406287ab818b2691256fecd51f675676084e07f5b1a6f1ffe2468c32fe",
+    "target": {
+      "h": 42,
+      "s": 22,
+      "l": 36
+    },
+    "targetHex": "#6F6347",
+    "targetPoint": {
+      "x": 0.4618,
+      "y": 0.4088
+    },
+    "samplePoint": {
+      "x": 0.4618,
+      "y": 0.4088
+    },
+    "sampleRadius": 0.026,
+    "inspectionRegion": {
+      "centerX": 0.4618,
+      "centerY": 0.4088,
+      "width": 0.44,
+      "height": 0.44
+    },
+    "rightsReview": {
+      "status": "approved",
+      "notes": "Astronomy image retained; target recomputed from a bright homogeneous sample patch. Manual sample-patch review recommended."
+    }
+  },
+  {
+    "id": "nasa-pia23123",
+    "imageSrc": "/astro/nasa/pia23123.webp",
+    "title": "A Field of Galaxies Seen by Spitzer and Hubble",
+    "description": "This deep-field view of the sky, taken by NASA's Spitzer Space Telescope, is dominated by galaxies - including some very faint, very distant ones - circled in red. The bottom right inset shows one of those distant galaxies, made visible thanks to a long-duration observation by Spitzer. The wide-field view also includes data from NASA's Hubble Space Telescope. The Spitzer observations came from the GREATS survey, short for GOODS Re-ionization Era wide-Area Treasury from Spitzer. GOODS is itself an acronym: Great Observatories Origins Deep Survey.  https://photojournal.jpl.nasa.gov/catalog/PIA23123",
+    "credit": "NASA/JPL-Caltech/ESA/Spitzer/P. Oesch/S. De Barros/ I.Labbe",
+    "sourceLabel": "NASA Image and Video Library",
+    "sourceUrl": "https://images.nasa.gov/details/PIA23123",
+    "nasaId": "PIA23123",
+    "dateCreated": "2019-05-08T00:00:00Z",
+    "center": "JPL",
+    "keywords": [
+      "Spitzer Space Telescope",
+      "Hubble Space Telescope"
+    ],
+    "width": 1600,
+    "height": 900,
+    "imageSha256": "73bc4695ffbd12e78cc23e16665742c4470d0bffa97e4a87413352197e62c948",
+    "target": {
+      "h": 10,
+      "s": 97,
+      "l": 15
+    },
+    "targetHex": "#4C0E01",
+    "targetPoint": {
+      "x": 0.8324,
+      "y": 0.6754
+    },
+    "samplePoint": {
+      "x": 0.8324,
+      "y": 0.6754
+    },
+    "sampleRadius": 0.026,
+    "inspectionRegion": {
+      "centerX": 0.78,
+      "centerY": 0.6754,
+      "width": 0.44,
+      "height": 0.54
+    },
+    "rightsReview": {
+      "status": "approved",
+      "notes": "Astronomy image retained; target recomputed from a bright homogeneous sample patch. Manual sample-patch review recommended."
+    }
+  },
+  {
+    "id": "nasa-iss025e011750",
+    "imageSrc": "/astro/nasa/iss025e011750.webp",
+    "title": "Night views of the Earth taken by the Expedition 25 crew",
+    "description": "ISS025-E-011750 (4 Nov. 2010)  --- From 220 miles above Earth, one of the Expedition 25 crew members aboard the International Space Station aimed a camera  through a Cupola window and recorded this night time image of the Mediterranean Riviera and a panorama along the coastline from Valencia, Spain to Livorno, Italy and many points in between including parts of Andorra and Monaco.  Islands in the Mediterranean that can easily be delineated in the Nov. 4 picture are the Balearic Islands, as well as Corsica and Sardinia.",
+    "credit": "JSC",
+    "sourceLabel": "NASA Image and Video Library",
+    "sourceUrl": "https://images.nasa.gov/details/iss025e011750",
+    "nasaId": "iss025e011750",
+    "dateCreated": "2010-11-04T00:00:00Z",
+    "center": "JSC",
+    "keywords": [],
+    "width": 2400,
+    "height": 1643,
+    "imageSha256": "8a90e2fb1c231827f8ff31fc67761bf254c7b8b469ac38c804b0bacc83a006d6",
+    "target": {
+      "h": 29,
+      "s": 81,
+      "l": 17
+    },
+    "targetHex": "#4D2908",
+    "targetPoint": {
+      "x": 0.5147,
+      "y": 0.2403
+    },
+    "samplePoint": {
+      "x": 0.5147,
+      "y": 0.2403
+    },
+    "sampleRadius": 0.026,
+    "inspectionRegion": {
+      "centerX": 0.5147,
+      "centerY": 0.27,
+      "width": 0.44,
+      "height": 0.54
+    },
+    "rightsReview": {
+      "status": "approved",
+      "notes": "Astronomy image retained; target recomputed from a bright homogeneous sample patch. Manual sample-patch review recommended."
+    }
+  },
+  {
+    "id": "nasa-gsfc-20171208-archive-e001677",
+    "imageSrc": "/astro/nasa/gsfc-20171208-archive-e001677.webp",
+    "title": "Hubble Watches Star Clusters on a Collision Course",
+    "description": "Image release August 16, 2012  Astronomers using data from NASA's Hubble Space Telescope have caught two clusters full of massive stars that may be in the early stages of merging. The 30 Doradus Nebula is 170,000 light-years from Earth. What at first was thought to be only one cluster in the core of the massive star-forming region 30 Doradus has been found to be a composite of two clusters that differ in age by about one million years.  The entire 30 Doradus complex has been an active star-forming region for 25 million years, and it is currently unknown how much longer this region can continue creating new stars. Smaller systems that merge into larger ones could help to explain the origin of some of the largest known star clusters. The Hubble observations, made with the Wide Field Camera 3, were taken Oct. 20-27, 2009. The blue color is light from the hottest, most massive stars; the green from the glow of oxygen; and the red from fluorescing hydrogen.  To read more about this image go to: <a href=\"http://www.nasa.gov/mission_pages/hubble/science/cluster-collision.html\" rel=\"nofollow\">www.nasa.gov/mission_pages/hubble/science/cluster-collisi...</a>  Image Credit: NASA, ESA, and E. Sabbi (ESA/STScI)  <b><a href=\"http://www.nasa.gov/audience/formedia/features/MP_Photo_Guidelines.html\" rel=\"nofollow\">NASA image use policy.</a></b>  <b><a href=\"http://www.nasa.gov/centers/goddard/home/index.html\" rel=\"nofollow\">NASA Goddard Space Flight Center</a></b> enables NASA’s mission through four scientific endeavors: Earth Science, Heliophysics, Solar System Exploration, and Astrophysics. Goddard plays a leading role in NASA’s accomplishments by contributing compelling scientific knowledge to advance the Agency’s mission.  <b>Follow us on <a href=\"http://twitter.com/NASA_GoddardPix\" rel=\"nofollow\">Twitter</a></b>  <b>Like us on <a href=\"http://www.facebook.com/pages/Greenbelt-MD/NASA-Goddard/395013845897?ref=tsd\" rel=\"nofollow\">Facebook</a></b>  <b>Find us on <a href=\"http://instagrid.me/nasagoddard/?vm=grid\" rel=\"nofollow\">Instagram</a></b>",
+    "credit": "GSFC",
+    "sourceLabel": "NASA Image and Video Library",
+    "sourceUrl": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001677",
+    "nasaId": "GSFC_20171208_Archive_e001677",
+    "dateCreated": "2017-12-08T00:00:00Z",
+    "center": "GSFC",
+    "keywords": [
+      "Hubble Watches Star Clusters on a Collision Course",
+      "star",
+      "space",
+      "nasa",
+      "goddard",
+      "hubble",
+      "hst"
+    ],
+    "width": 2400,
+    "height": 2400,
+    "imageSha256": "9eea51f79eaf94ec18004ff146b6a76ebab35dd6e4cd63e175ee7399d5172244",
+    "target": {
+      "h": 208,
+      "s": 59,
+      "l": 84
+    },
+    "targetHex": "#BDD7EE",
+    "targetPoint": {
+      "x": 0.5676,
+      "y": 0.5941
+    },
+    "samplePoint": {
+      "x": 0.5676,
+      "y": 0.5941
+    },
+    "sampleRadius": 0.026,
+    "inspectionRegion": {
+      "centerX": 0.5676,
+      "centerY": 0.5941,
+      "width": 0.44,
+      "height": 0.44
+    },
+    "rightsReview": {
+      "status": "approved",
+      "notes": "Astronomy image retained; target recomputed from a bright homogeneous sample patch. Manual sample-patch review recommended."
+    }
+  },
+  {
+    "id": "nasa-pia13021",
+    "imageSrc": "/astro/nasa/pia13021.webp",
+    "title": "Hiding Out Behind the Milky Way",
+    "description": "A leggy cosmic creature comes out of hiding in this new infrared view from NASA Wide-field Infrared Survey Explorer. The spiral beauty, called IC 342 and sometimes the hidden galaxy, is shrouded behind our own galaxy, the Milky Way.",
+    "credit": "NASA/JPL-Caltech/UCLA",
+    "sourceLabel": "NASA Image and Video Library",
+    "sourceUrl": "https://images.nasa.gov/details/PIA13021",
+    "nasaId": "PIA13021",
+    "dateCreated": "2010-04-07T21:00:01Z",
+    "center": "JPL",
+    "keywords": [
+      "Wide-field Infrared Survey Explorer WISE"
+    ],
+    "width": 1963,
+    "height": 1963,
+    "imageSha256": "2703af36f2e205bbcf69ea1da27374133f92ec863cd339a2dcc9bf017ac232af",
+    "target": {
+      "h": 228,
+      "s": 84,
+      "l": 17
+    },
+    "targetHex": "#071550",
+    "targetPoint": {
+      "x": 0.6471,
+      "y": 0.2235
+    },
+    "samplePoint": {
+      "x": 0.6471,
+      "y": 0.2235
+    },
+    "sampleRadius": 0.026,
+    "inspectionRegion": {
+      "centerX": 0.6471,
+      "centerY": 0.2235,
+      "width": 0.44,
+      "height": 0.44
+    },
+    "rightsReview": {
+      "status": "approved",
+      "notes": "Astronomy image retained; target recomputed from a bright homogeneous sample patch. Manual sample-patch review recommended."
+    }
+  },
+  {
+    "id": "nasa-iss052e004998",
+    "imageSrc": "/astro/nasa/iss052e004998.webp",
+    "title": "Earth observation taken by the Expedition 52 crew",
+    "description": "iss052e004998 (June 19, 2017) --- The aurora and the starry night are pictured above Earth’s atmosphere in this photograph taken from the space station’s cupola June 19, 2017.",
+    "credit": "Jack Fischer",
+    "sourceLabel": "NASA Image and Video Library",
+    "sourceUrl": "https://images.nasa.gov/details/iss052e004998",
+    "nasaId": "iss052e004998",
+    "dateCreated": "2017-06-19T00:00:00Z",
+    "center": "JSC",
+    "keywords": [],
+    "width": 2400,
+    "height": 1597,
+    "imageSha256": "c102c9d34bfda2e15c355ea409e7639c454802c29c830bc8960eb39df4495b1f",
+    "target": {
+      "h": 226,
+      "s": 22,
+      "l": 24
+    },
+    "targetHex": "#2F3549",
+    "targetPoint": {
+      "x": 0.3471,
+      "y": 0.4912
+    },
+    "samplePoint": {
+      "x": 0.3471,
+      "y": 0.4912
+    },
+    "sampleRadius": 0.026,
+    "inspectionRegion": {
+      "centerX": 0.3471,
+      "centerY": 0.4912,
+      "width": 0.44,
+      "height": 0.54
+    },
+    "rightsReview": {
+      "status": "approved",
+      "notes": "Astronomy image retained; target recomputed from a bright homogeneous sample patch. Manual sample-patch review recommended."
+    }
+  },
+  {
+    "id": "nasa-pia13335",
+    "imageSrc": "/astro/nasa/pia13335.webp",
+    "title": "Ancient Galaxy Cluster Still Producing Stars",
+    "description": "Astronomers have found that stars are forming more rapidly in the center of a distant galaxy cluster than at its edges, which is completely reversed from galaxy clusters seen in the local universe.",
+    "credit": "NASA/JPL-Caltech/Texas A&M",
+    "sourceLabel": "NASA Image and Video Library",
+    "sourceUrl": "https://images.nasa.gov/details/PIA13335",
+    "nasaId": "PIA13335",
+    "dateCreated": "2010-08-18T17:00:47Z",
+    "center": "JPL",
+    "keywords": [
+      "Spitzer Space Telescope"
+    ],
+    "width": 2000,
+    "height": 2000,
+    "imageSha256": "4d496a3287987134b08bcd25af3644d99b0d754559ee7cf69110569eb7d7d440",
+    "target": {
+      "h": 2,
+      "s": 95,
+      "l": 51
+    },
+    "targetHex": "#F9110B",
+    "targetPoint": {
+      "x": 0.1853,
+      "y": 0.1853
+    },
+    "samplePoint": {
+      "x": 0.1853,
+      "y": 0.1853
+    },
+    "sampleRadius": 0.026,
+    "inspectionRegion": {
+      "centerX": 0.22,
+      "centerY": 0.22,
+      "width": 0.44,
+      "height": 0.44
+    },
+    "rightsReview": {
+      "status": "approved",
+      "notes": "Astronomy image retained; target recomputed from a bright homogeneous sample patch. Manual sample-patch review recommended."
+    }
+  },
+  {
+    "id": "nasa-pia13762",
+    "imageSrc": "/astro/nasa/pia13762.webp",
+    "title": "Eight Looks at the Jupiter Impact",
+    "description": "Eight Looks at the Jupiter Impact",
+    "credit": "NASA/JPL-Caltech/IRTF/STScI/ESO/Gemini Observatory/AURA/A. Wesley",
+    "sourceLabel": "NASA Image and Video Library",
+    "sourceUrl": "https://images.nasa.gov/details/PIA13762",
+    "nasaId": "PIA13762",
+    "dateCreated": "2011-01-26T19:00:02Z",
+    "center": "JPL",
+    "keywords": [
+      "Jupiter",
+      "Infrared Telescope Facility"
+    ],
+    "width": 1202,
+    "height": 1200,
+    "imageSha256": "69265d5ff370a5e15511cd4de3af51322e7addf08bfe01edbd8ba6b69d479bed",
+    "target": {
+      "h": 48,
+      "s": 59,
+      "l": 74
+    },
+    "targetHex": "#E3D494",
+    "targetPoint": {
+      "x": 0.0912,
+      "y": 0.1711
+    },
+    "samplePoint": {
+      "x": 0.0912,
+      "y": 0.1711
+    },
+    "sampleRadius": 0.026,
+    "inspectionRegion": {
+      "centerX": 0.22,
+      "centerY": 0.2204,
+      "width": 0.44,
+      "height": 0.4407
+    },
+    "rightsReview": {
+      "status": "approved",
+      "notes": "Astronomy image retained; target recomputed from a bright homogeneous sample patch. Manual sample-patch review recommended."
+    }
+  },
+  {
+    "id": "nasa-pia01527",
+    "imageSrc": "/astro/nasa/pia01527.webp",
+    "title": "Jupiter Violent Storms",
+    "description": "Jupiter Violent Storms",
+    "credit": "NASA/JPL",
+    "sourceLabel": "NASA Image and Video Library",
+    "sourceUrl": "https://images.nasa.gov/details/PIA01527",
+    "nasaId": "PIA01527",
+    "dateCreated": "1999-06-22T00:38:39Z",
+    "center": "JPL",
+    "keywords": [
+      "Jupiter",
+      "Voyager"
+    ],
+    "width": 1362,
+    "height": 1228,
+    "imageSha256": "af5ca369359e5269aba3a813399b880fd1130e9c30b8fc114bca31895e5209de",
+    "target": {
+      "h": 14,
+      "s": 63,
+      "l": 79
+    },
+    "targetHex": "#EBB6A6",
+    "targetPoint": {
+      "x": 0.2941,
+      "y": 0.1173
+    },
+    "samplePoint": {
+      "x": 0.2941,
+      "y": 0.1173
+    },
+    "sampleRadius": 0.026,
+    "inspectionRegion": {
+      "centerX": 0.2941,
+      "centerY": 0.244,
+      "width": 0.44,
+      "height": 0.488
+    },
+    "rightsReview": {
+      "status": "approved",
+      "notes": "Astronomy image retained; target recomputed from a bright homogeneous sample patch. Manual sample-patch review recommended."
+    }
+  },
+  {
+    "id": "nasa-ctb1cgpsvla",
+    "imageSrc": "/astro/nasa/ctb1cgpsvla.webp",
+    "title": "CTB 1 supernova remnant",
+    "description": "The CTB 1 supernova remnant resembles a ghostly bubble in this image, which combines new 1.5 gigahertz observations from the Very Large Array (VLA) radio telescope (orange, near center) with older observations from the Dominion Radio Astrophysical Observatory’s Canadian Galactic Plane Survey (1.42 gigahertz, magenta and yellow; 408 megahertz, green) and infrared data (blue). The VLA data clearly reveal the straight, glowing trail from pulsar J0002+6216 and the curved rim of the remnant’s shell. CTB 1 is about half a degree across, the apparent size of a full Moon. Credits: Composite by Jayanne English, University of Manitoba, using data from NRAO/F. Schinzel et al., DRAO/Canadian Galactic Plane Survey and NASA/IRAS  More info: https://go.nasa.gov/2TKpyWF",
+    "credit": "GSFC",
+    "sourceLabel": "NASA Image and Video Library",
+    "sourceUrl": "https://images.nasa.gov/details/ctb1cgpsvla",
+    "nasaId": "ctb1cgpsvla",
+    "dateCreated": "2019-03-19T00:00:00Z",
+    "center": "GSFC",
+    "keywords": [
+      "Fermi Gamma-Ray Space Telescope",
+      "Goddard Space Flight Center",
+      "Pulsars",
+      "Supernova",
+      "Universe"
+    ],
+    "width": 2400,
+    "height": 2369,
+    "imageSha256": "60016f055dcc65cfed20cf54c4b024ba125dbe78b6fb6665158d37262ac17206",
+    "target": {
+      "h": 203,
+      "s": 93,
+      "l": 12
+    },
+    "targetHex": "#02253B",
+    "targetPoint": {
+      "x": 0.2471,
+      "y": 0.7321
+    },
+    "samplePoint": {
+      "x": 0.2471,
+      "y": 0.7321
+    },
+    "sampleRadius": 0.026,
+    "inspectionRegion": {
+      "centerX": 0.2471,
+      "centerY": 0.7321,
+      "width": 0.44,
+      "height": 0.4458
+    },
+    "rightsReview": {
+      "status": "approved",
+      "notes": "Astronomy image retained; target recomputed from a bright homogeneous sample patch. Manual sample-patch review recommended."
+    }
+  },
+  {
+    "id": "nasa-sts062-58-025",
+    "imageSrc": "/astro/nasa/sts062-58-025.webp",
+    "title": "Aurora Australis as seen from STS-62",
+    "description": "STS062-58-025 (4-18 March) --- This photo shows the aurora australis or souther lights. The multi-hued shafts of light, extending upward to 200 miles above the earth's surface, are caused by beams of energetic electrons colliding with the oxygen and nitrogen in the earth's upper atmosphere.  The strong red glow occurs at the highest altitude where the air is least dense and composed mostly of oxygen.  At lower altitudes, the greater density favors the green color, also produced by atomic oxygen.  Sometimes at the bottom (the lowest altitude of the aurora) a pink border is produced by nitrogen.  The aurora usually can be seen only in Arctic regions.  However, because of the tilt of the magnetic axis of the space shuttle mission orbits.  One of these regions is over eastern North American, and the second one is south of Australia.  Since most shuttle launches occur in daytime, the North American region is in daylight, and the only auroras that can be seen are usually in the Southern Hemisphere.",
+    "credit": "JSC",
+    "sourceLabel": "NASA Image and Video Library",
+    "sourceUrl": "https://images.nasa.gov/details/sts062-58-025",
+    "nasaId": "sts062-58-025",
+    "dateCreated": "1994-03-05T00:00:00Z",
+    "center": "JSC",
+    "keywords": [
+      "AURORAS",
+      "AUSTRALIA",
+      "EARTH OBSERVATIONS (FROM SPACE)",
+      "STS-62",
+      "COLUMBIA (ORBITER)",
+      "ONBOARD ACTIVITIES"
+    ],
+    "width": 2400,
+    "height": 1583,
+    "imageSha256": "b561d6af0737e7022325e027af939912ef21320a8add1cc67ca7cdc71134a2f8",
+    "target": {
+      "h": 195,
+      "s": 94,
+      "l": 13
+    },
+    "targetHex": "#022F3F",
+    "targetPoint": {
+      "x": 0.1412,
+      "y": 0.7143
+    },
+    "samplePoint": {
+      "x": 0.1412,
+      "y": 0.7143
+    },
+    "sampleRadius": 0.026,
+    "inspectionRegion": {
+      "centerX": 0.22,
+      "centerY": 0.7143,
+      "width": 0.44,
+      "height": 0.54
+    },
+    "rightsReview": {
+      "status": "approved",
+      "notes": "Astronomy image retained; target recomputed from a bright homogeneous sample patch. Manual sample-patch review recommended."
+    }
+  },
+  {
+    "id": "nasa-gsfc-20171208-archive-e002107",
+    "imageSrc": "/astro/nasa/gsfc-20171208-archive-e002107.webp",
+    "title": "Aurora Composite Image",
+    "description": "This composite image presents the three most visible elements of space weather: a storm from the Sun, aurora as seen from space, and aurora as seen from the Earth.  The solar storm is a corona mass ejection (CME) composite from EIT 304Å superimposed on a LASCO C2 image, both from SOHO.  The middle image from Polar’s VIS imager shows charged particles as they spread down across the U.S. during a large solar storm event on July 14, 2000. Lastly, Jan Curtis took this image of an aurora display in Alaska, the visible evidence of space weather that we see here on Earth.  Credit: NASA/GSFC/SOHO/ESA  To learn more go to the SOHO website:  <a href=\"http://sohowww.nascom.nasa.gov/home.html\" rel=\"nofollow\">sohowww.nascom.nasa.gov/home.html</a>  To learn more about NASA's Sun Earth Day go here:  <a href=\"http://sunearthday.nasa.gov/2010/index.php\" rel=\"nofollow\">sunearthday.nasa.gov/2010/index.php</a>",
+    "credit": "GSFC",
+    "sourceLabel": "NASA Image and Video Library",
+    "sourceUrl": "https://images.nasa.gov/details/GSFC_20171208_Archive_e002107",
+    "nasaId": "GSFC_20171208_Archive_e002107",
+    "dateCreated": "2017-12-08T00:00:00Z",
+    "center": "GSFC",
+    "keywords": [
+      "Aurora Composite Image",
+      "sun",
+      "nasa",
+      "springequinox",
+      "sunearthday",
+      "nasasunearthday"
+    ],
+    "width": 2400,
+    "height": 1550,
+    "imageSha256": "a26dc4ce7923928e134d3305678034362a0b6504503dff49332d6b1be646dab5",
+    "target": {
+      "h": 0,
+      "s": 98,
+      "l": 25
+    },
+    "targetHex": "#7F0101",
+    "targetPoint": {
+      "x": 0.2441,
+      "y": 0.6636
+    },
+    "samplePoint": {
+      "x": 0.2441,
+      "y": 0.6636
+    },
+    "sampleRadius": 0.026,
+    "inspectionRegion": {
+      "centerX": 0.2441,
+      "centerY": 0.6636,
+      "width": 0.44,
+      "height": 0.54
+    },
+    "rightsReview": {
+      "status": "approved",
+      "notes": "Astronomy image retained; target recomputed from a bright homogeneous sample patch. Manual sample-patch review recommended."
+    }
+  },
+  {
+    "id": "nasa-pia01481",
+    "imageSrc": "/astro/nasa/pia01481.webp",
+    "title": "Jupiter System Montage",
+    "description": "Jupiter System Montage",
+    "credit": "NASA/JPL",
+    "sourceLabel": "NASA Image and Video Library",
+    "sourceUrl": "https://images.nasa.gov/details/PIA01481",
+    "nasaId": "PIA01481",
+    "dateCreated": "1998-10-30T14:52:39Z",
+    "center": "JPL",
+    "keywords": [
+      "Jupiter",
+      "Voyager"
+    ],
+    "width": 2081,
+    "height": 1654,
+    "imageSha256": "6728fc141d2afdf65bedb16eeaf6008a4decc576151d27d3458d3cb9951edc65",
+    "target": {
+      "h": 28,
+      "s": 77,
+      "l": 64
+    },
+    "targetHex": "#EA9D5A",
+    "targetPoint": {
+      "x": 0.4824,
+      "y": 0.5296
+    },
+    "samplePoint": {
+      "x": 0.4824,
+      "y": 0.5296
+    },
+    "sampleRadius": 0.026,
+    "inspectionRegion": {
+      "centerX": 0.4824,
+      "centerY": 0.5296,
+      "width": 0.44,
+      "height": 0.54
+    },
+    "rightsReview": {
+      "status": "approved",
+      "notes": "Astronomy image retained; target recomputed from a bright homogeneous sample patch. Manual sample-patch review recommended."
+    }
+  },
+  {
+    "id": "nasa-as11-40-5866",
+    "imageSrc": "/astro/nasa/as11-40-5866.webp",
+    "title": "Apollo 11 Mission image - Astronaut Edwin Aldrin descends the Lu",
+    "description": "AS11-40-5866 (20 July 1969) --- Astronaut Edwin E. Aldrin Jr., lunar module pilot, egresses the Lunar Module (LM) \"Eagle\" and begins to descend the steps of the LM ladder as he prepares to walk on the moon. This photograph was taken by astronaut Neil A. Armstrong, commander, with a 70mm lunar surface camera during the Apollo 11 extravehicular activity (EVA). While astronauts Armstrong and Aldrin descended in the LM \"Eagle\" to explore the moon, astronaut Michael Collins, command module pilot, remained with the Command and Service Modules (CSM) \"Columbia\" in lunar orbit. Photo credit: NASA",
+    "credit": "JSC",
+    "sourceLabel": "NASA Image and Video Library",
+    "sourceUrl": "https://images.nasa.gov/details/as11-40-5866",
+    "nasaId": "as11-40-5866",
+    "dateCreated": "1969-07-20T00:00:00Z",
+    "center": "JSC",
+    "keywords": [
+      "APOLLO 11 FLIGHT",
+      "MOON",
+      "LUNAR SURFACE",
+      "LUNAR BASES",
+      "LUNAR MODULE",
+      "ASTRONAUTS",
+      "EXTRAVEHICULAR ACIVITY"
+    ],
+    "width": 2400,
+    "height": 2400,
+    "imageSha256": "a17579af79909ff99e31045db2eb6b59f0c889241023516680ec6e4688e07552",
+    "target": {
+      "h": 14,
+      "s": 82,
+      "l": 17
+    },
+    "targetHex": "#501908",
+    "targetPoint": {
+      "x": 0.7265,
+      "y": 0.6471
+    },
+    "samplePoint": {
+      "x": 0.7265,
+      "y": 0.6471
+    },
+    "sampleRadius": 0.026,
+    "inspectionRegion": {
+      "centerX": 0.7265,
+      "centerY": 0.6471,
+      "width": 0.44,
+      "height": 0.44
+    },
+    "rightsReview": {
+      "status": "approved",
+      "notes": "Astronomy image retained; target recomputed from a bright homogeneous sample patch. Manual sample-patch review recommended."
+    }
+  },
+  {
+    "id": "nasa-gsfc-20171208-archive-e000034",
+    "imageSrc": "/astro/nasa/gsfc-20171208-archive-e000034.webp",
+    "title": "Hubble’s Spirograph",
+    "description": "Hubble’s Spirograph  In this classic Hubble image from 2000, the planetary nebula IC 418 glows like a multifaceted jewel with enigmatic patterns. IC 418 lies about 2,000 light-years from Earth in the direction of the constellation Lepus.   A planetary nebula represents the final stage in the evolution of a star similar to our sun. The star at the center of IC 418 was a red giant a few thousand years ago, but then ejected its outer layers into space to form the nebula, which has now expanded to a diameter of about 0.1 light-year. The stellar remnant at the center is the hot core of the red giant, from which ultraviolet radiation floods out into the surrounding gas, causing it to fluoresce. Over the next several thousand years, the nebula will gradually disperse into space, and then the star will cool and fade away for billions of years as a white dwarf. Our own sun is expected to undergo a similar fate, but fortunately, this will not occur until some 5 billion years from now.  The Hubble image of IC 418 is shown with colors added to represent the different camera filters used that isolate light from various chemical elements. Red shows emission from ionized nitrogen (the coolest gas in the nebula, located furthest from the hot nucleus), green shows emission from hydrogen and blue traces the emission from ionized oxygen (the hottest gas, closest to the central star). The remarkable textures seen in the nebula are newly revealed by the Hubble Space Telescope, and their origin is still uncertain.   Read more: <a href=\"https://go.nasa.gov/2roofKS\" rel=\"nofollow\">go.nasa.gov/2roofKS</a>  Credit: NASA and The Hubble Heritage Team (STScI/AURA);  Acknowledgment: Dr. Raghvendra Sahai (JPL) and Dr. Arsen R. Hajian (USNO)",
+    "credit": "GSFC",
+    "sourceLabel": "NASA Image and Video Library",
+    "sourceUrl": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000034",
+    "nasaId": "GSFC_20171208_Archive_e000034",
+    "dateCreated": "2017-12-08T00:00:00Z",
+    "center": "GSFC",
+    "keywords": [
+      "Hubble’s Spirograph"
+    ],
+    "width": 2394,
+    "height": 2280,
+    "imageSha256": "d79700c4be610148b46fa8d6ac70715527a8154dcff2f844bfe34afc39c56d3f",
+    "target": {
+      "h": 255,
+      "s": 98,
+      "l": 77
+    },
+    "targetHex": "#AA8CFE",
+    "targetPoint": {
+      "x": 0.5559,
+      "y": 0.534
+    },
+    "samplePoint": {
+      "x": 0.5559,
+      "y": 0.534
+    },
+    "sampleRadius": 0.026,
+    "inspectionRegion": {
+      "centerX": 0.5559,
+      "centerY": 0.534,
+      "width": 0.44,
+      "height": 0.462
+    },
+    "rightsReview": {
+      "status": "approved",
+      "notes": "Astronomy image retained; target recomputed from a bright homogeneous sample patch. Manual sample-patch review recommended."
+    }
+  },
+  {
+    "id": "nasa-9126013",
+    "imageSrc": "/astro/nasa/9126013.webp",
+    "title": "Spacelab",
+    "description": "This is a presentation of two comparison images of the Spiral Galaxy M81 in the constellation URA Major. The galaxy is about 12-million light years from Earth. The left image is the Spiral Galaxy M81 as photographed by the Ultraviolet Imaging Telescope (UIT) during the Astro-1 Mission (STS-35) on December 9, 1990. This UIT photograph, made with ultraviolet light, reveals regions where new stars are forming at a rapid rate. The right image is a photograph of the same galaxy in red light made with a 36-inch (0.9-meter) telescope at the Kitt Peak National Observatory near Tucson, Arizona. The Astro Observatory was designed to explore the universe by observing and measuring ultraviolet radiation from celestial objects. Three instruments made up the Astro Observatory: The Hopkins Ultraviolet Telescope (HUT), the Ultraviolet Imaging Telescope (UIT), and the Wisconsin Ultraviolet Photo-Polarimetry Experiment (WUPPE). The Marshall Space Flight Center had management responsibilities for the Astro-1 mission. The Astro-1 Observatory was launched aboard the Space Shuttle Orbiter Columbia (STS-35) on December 2, 1990.",
+    "credit": "MSFC",
+    "sourceLabel": "NASA Image and Video Library",
+    "sourceUrl": "https://images.nasa.gov/details/9126013",
+    "nasaId": "9126013",
+    "dateCreated": "1990-12-09T00:00:00Z",
+    "center": "MSFC",
+    "keywords": [
+      "Astro-1",
+      "Ultraviolet Imaging Telescope",
+      "UIT",
+      "Spiral Galaxy",
+      "M81"
+    ],
+    "width": 2400,
+    "height": 1178,
+    "imageSha256": "72610afa3d8dc2cbcc300246ac5ae95a047282525f5bf7643baea4af14f6e7a8",
+    "target": {
+      "h": 241,
+      "s": 66,
+      "l": 34
+    },
+    "targetHex": "#211E91",
+    "targetPoint": {
+      "x": 0.1676,
+      "y": 0.3832
+    },
+    "samplePoint": {
+      "x": 0.1676,
+      "y": 0.3832
+    },
+    "sampleRadius": 0.026,
+    "inspectionRegion": {
+      "centerX": 0.22,
+      "centerY": 0.3832,
+      "width": 0.44,
+      "height": 0.54
+    },
+    "rightsReview": {
+      "status": "approved",
+      "notes": "Astronomy image retained; target recomputed from a bright homogeneous sample patch. Manual sample-patch review recommended."
+    }
+  },
+  {
+    "id": "nasa-iss040e073872",
+    "imageSrc": "/astro/nasa/iss040e073872.webp",
+    "title": "Earth Observation",
+    "description": "Earth Observation taken during a night pass by the Expedition 40 crew aboard the International Space Station (ISS). Folder lists this as: Cairo and Israel at night.",
+    "credit": "Reid Wiseman",
+    "sourceLabel": "NASA Image and Video Library",
+    "sourceUrl": "https://images.nasa.gov/details/iss040e073872",
+    "nasaId": "iss040e073872",
+    "dateCreated": "2014-07-22T00:00:00Z",
+    "center": "JSC",
+    "keywords": [
+      "EARTH OBSERVATIONS (FROM SPACE)  EXPEDITION 40",
+      "TWEETED PHOTO",
+      "SOCIAL MEDIA"
+    ],
+    "width": 2400,
+    "height": 1597,
+    "imageSha256": "397201c4224c724e7e75c1113795343e99636dcc1583cd9074edb635d9632a11",
+    "target": {
+      "h": 31,
+      "s": 74,
+      "l": 15
+    },
+    "targetHex": "#44280A",
+    "targetPoint": {
+      "x": 0.2235,
+      "y": 0.5221
+    },
+    "samplePoint": {
+      "x": 0.2235,
+      "y": 0.5221
+    },
+    "sampleRadius": 0.026,
+    "inspectionRegion": {
+      "centerX": 0.2235,
+      "centerY": 0.5221,
+      "width": 0.44,
+      "height": 0.54
+    },
+    "rightsReview": {
+      "status": "approved",
+      "notes": "Astronomy image retained; target recomputed from a bright homogeneous sample patch. Manual sample-patch review recommended."
+    }
+  }
+]

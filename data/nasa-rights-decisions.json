@@ -1,0 +1,82 @@
+{
+  "0200145": {
+    "status": "approved",
+    "notes": "Observational Chandra composite; use the NASA/MSFC source credit exactly as recorded."
+  },
+  "iss025e011750": {
+    "status": "approved",
+    "notes": "Crew Earth-at-night observation; NASA Image Library record credits JSC."
+  },
+  "GSFC_20171208_Archive_e001677": {
+    "status": "approved",
+    "notes": "Observational star-cluster image; NASA Image Library record credits GSFC."
+  },
+  "PIA13021": {
+    "status": "approved",
+    "notes": "Observational galaxy image; preserve NASA/JPL-Caltech/UCLA credit."
+  },
+  "iss052e004998": {
+    "status": "approved",
+    "notes": "Earth observation from orbit; preserve the named contributor credit."
+  },
+  "PIA01527": {
+    "status": "approved",
+    "notes": "Observational Jupiter image; preserve NASA/JPL credit."
+  },
+  "ctb1cgpsvla": {
+    "status": "approved",
+    "notes": "Observational supernova-remnant image; NASA Image Library record credits GSFC."
+  },
+  "sts062-58-025": {
+    "status": "approved",
+    "notes": "Aurora observation from orbit; NASA Image Library record credits JSC."
+  },
+  "GSFC_20171208_Archive_e000034": {
+    "status": "approved",
+    "notes": "Observational planetary-nebula image; NASA Image Library record credits GSFC."
+  },
+  "iss040e073872": {
+    "status": "approved",
+    "notes": "Earth-at-night observation from orbit; preserve the named contributor credit."
+  },
+  "PIA10388": {
+    "status": "pending",
+    "notes": "Observational image, but collaboration credit includes ESA, STScI/AURA, and a university contributor; verify terms."
+  },
+  "PIA08516": {
+    "status": "pending",
+    "notes": "Observational image with UC Berkeley contribution; verify the complete credit and reuse terms."
+  },
+  "PIA10389": {
+    "status": "pending",
+    "notes": "Observational image, but collaboration credit includes ESA, STScI/AURA, and a university contributor; verify terms."
+  },
+  "PIA23123": {
+    "status": "pending",
+    "notes": "Annotated observational composite with ESA and named contributors; verify reuse terms before approval."
+  },
+  "PIA13335": {
+    "status": "pending",
+    "notes": "Observational image with Texas A&M contribution; verify the complete credit and reuse terms."
+  },
+  "as11-40-5866": {
+    "status": "pending",
+    "notes": "Historic lunar-surface photograph contains an identifiable astronaut; perform a specific media-use review."
+  },
+  "PIA13762": {
+    "status": "rejected",
+    "notes": "Labeled multi-panel comparison is unsuitable for the color-search experience."
+  },
+  "GSFC_20171208_Archive_e002107": {
+    "status": "rejected",
+    "notes": "Explanatory multi-image graphic is unsuitable for the observational-image pool."
+  },
+  "PIA01481": {
+    "status": "rejected",
+    "notes": "Illustrative planetary composition is unsuitable for the observational-image pool."
+  },
+  "9126013": {
+    "status": "rejected",
+    "notes": "Comparative rendered diagram is unsuitable for the observational-image pool."
+  }
+}
