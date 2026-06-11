@@ -25,7 +25,6 @@ import { ChallengeGrid } from "./ChallengeGrid";
 import { FirstPlayDialog } from "./FirstPlayDialog";
 import { GuessHistory } from "./GuessHistory";
 import { HslSliderField } from "./HslSliderField";
-import { ImageZoomDialog } from "./ImageZoomDialog";
 import { ResultPanel } from "./ResultPanel";
 import { StatsDialog } from "./StatsDialog";
 
@@ -43,7 +42,6 @@ export function AstroGame() {
   const [stats, setStats] = useState<GameStats>(EMPTY_STATS);
   const [onboardingOpen, setOnboardingOpen] = useState(false);
   const [statsOpen, setStatsOpen] = useState(false);
-  const [zoomOpen, setZoomOpen] = useState(false);
   const [copyStatus, setCopyStatus] = useState("");
   const abortRef = useRef<AbortController | null>(null);
   const storageRef = useRef<AstroStorage>(structuredClone(DEFAULT_STORAGE));
@@ -265,7 +263,6 @@ export function AstroGame() {
             puzzle={puzzle}
             guess={guess}
             reveal={reveal}
-            onZoom={() => setZoomOpen(true)}
           />
           <section id="game-controls" className="control-panel" aria-labelledby="controls-title">
             <p className="eyebrow">Your color</p>
@@ -345,7 +342,6 @@ export function AstroGame() {
       <SiteFooter />
       <FirstPlayDialog open={onboardingOpen} onDismiss={dismissOnboarding} />
       <StatsDialog open={statsOpen} onOpenChange={setStatsOpen} stats={stats} />
-      <ImageZoomDialog open={zoomOpen} onOpenChange={setZoomOpen} puzzle={puzzle} reveal={reveal} />
       {reveal && closest ? (
         <ResultPanel
           won={won}

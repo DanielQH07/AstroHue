@@ -12,10 +12,9 @@ type Props = {
   puzzle: PublicPuzzle;
   guess: HslColor;
   reveal?: RevealData;
-  onZoom: () => void;
 };
 
-export function AstroImageCard({ puzzle, guess, reveal, onZoom }: Props) {
+export function AstroImageCard({ puzzle, guess, reveal }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [bounds, setBounds] = useState({ width: 0, height: 0, left: 0, top: 0 });
   const [failed, setFailed] = useState(false);
@@ -114,9 +113,6 @@ export function AstroImageCard({ puzzle, guess, reveal, onZoom }: Props) {
             <b>Color sampled here</b>
           </div>
         ) : null}
-        <button className="zoom-button" onClick={onZoom}>
-          <Maximize2 size={18} aria-hidden="true" /> Zoom image
-        </button>
       </div>
       <p className="image-instruction">
         Restore the desaturated patch by adjusting the color sliders below.
